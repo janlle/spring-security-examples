@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * create by 2017年11月19日下午2:30:39
  */
 @Data
-@ConfigurationProperties(prefix = "ruolin.security")
+@ConfigurationProperties(prefix = "andy.security")
 public class SecurityProperties {
 
 	private BrowserProperties browser = new BrowserProperties();
