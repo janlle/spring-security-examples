@@ -42,9 +42,7 @@ public class WeixinOAuth2Template extends OAuth2Template {
 		this.accessTokenUrl = accessTokenUrl;
 	}
 	
-	/* (non-Javadoc)
-	 * @see org.springframework.social.oauth2.OAuth2Template#exchangeForAccess(java.lang.String, java.lang.String, org.springframework.util.MultiValueMap)
-	 */
+
 	@Override
 	public AccessGrant exchangeForAccess(String authorizationCode, String redirectUri,
 			MultiValueMap<String, String> parameters) {
@@ -63,7 +61,6 @@ public class WeixinOAuth2Template extends OAuth2Template {
 	public AccessGrant refreshAccess(String refreshToken, MultiValueMap<String, String> additionalParameters) {
 		
 		StringBuilder refreshTokenUrl = new StringBuilder(REFRESH_TOKEN_URL);
-		
 		refreshTokenUrl.append("?appid="+clientId);
 		refreshTokenUrl.append("&grant_type=refresh_token");
 		refreshTokenUrl.append("&refresh_token="+refreshToken);
