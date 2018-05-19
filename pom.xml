@@ -2,14 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-
-	<groupId>com.jja.security</groupId>
-	<artifactId>springSecurity_parent</artifactId>
+	<groupId>com.andy.security</groupId>
+	<artifactId>spring-security-examples</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
 	<properties>
-		<ruolin.security.version>1.0.0-SNAPSHOT</ruolin.security.version>
+		<andy.security.version>1.0.0-SNAPSHOT</andy.security.version>
 	</properties>
 
 	<dependencyManagement>
@@ -46,9 +45,9 @@
 	</build>
 	
 	<modules>
-		<module>springSecurity_app</module>
-		<module>springSecurity_browser</module>
-		<module>springSecurity_core</module>
-		<module>springSecurity_demo</module>
+		<module>spring-security-app</module>
+		<module>spring-security-browser</module>
+		<module>spring-security-core</module>
+		<module>spring-security-demo</module>
 	</modules>
 </project>
