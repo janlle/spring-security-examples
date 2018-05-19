@@ -37,7 +37,7 @@ public class RuolinAuthentictionSuccessHandler extends SavedRequestAwareAuthenti
 			throws IOException, ServletException {
 		logger.info("登录成功！");
 
-		if (LoginType.JSON.equals(securityProperties.getBrowserProperties().getLoginType())) {
+		if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
 			resp.setContentType("application/json;charset=utf-8");
 			resp.getWriter().write(objectMapper.writeValueAsString(authentication));
 		} else {

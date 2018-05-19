@@ -40,7 +40,7 @@ public class RuolinAuthenticationFailureHandler extends SimpleUrlAuthenticationF
 			AuthenticationException exception) throws IOException, ServletException {
 		logger.info("登录失败！");
 
-		if (LoginType.JSON.equals(securityProperties.getBrowserProperties().getLoginType())) {
+		if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
 			response.setContentType("application/json;charset=utf-8");
 			response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
 			response.getWriter().write(objectMapper.writeValueAsString(new SimpleResponse(exception.getMessage())));

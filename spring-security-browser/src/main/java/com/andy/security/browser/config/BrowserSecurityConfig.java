@@ -67,7 +67,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 		validateCodeFilter.setAuthenticationFailureHandler(ruolinAuthenticationFailureHandler);
 		validateCodeFilter.afterPropertiesSet();
 
-		log.info("配置文件中的登录页面是：" + securityProperties.getBrowserProperties().getLoginPage());
+		log.info("配置文件中的登录页面是：" + securityProperties.getBrowser().getLoginPage());
 		http.apply(ruolinSecuritySocialConfig)
 				.and()
 				.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
@@ -80,11 +80,11 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 					.and()
 				.rememberMe()
 					.tokenRepository(persistentTokenRepository())
-					.tokenValiditySeconds(securityProperties.getBrowserProperties().getRememberMeSeconds())
+					.tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
 					.userDetailsService(userDetailsService)
 					.and()
 				.authorizeRequests()
-					.antMatchers("/authentication/request", securityProperties.getBrowserProperties().getLoginPage(), "/code/*")
+					.antMatchers("/authentication/request", securityProperties.getBrowser().getLoginPage(), "/code/*")
 					.permitAll()
 					.anyRequest()
 					.authenticated()

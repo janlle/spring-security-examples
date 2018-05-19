@@ -1,0 +1,34 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/study-test?useSSL=true&characterEncoding=UTF-8
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+  session:
+    store-type: none
+
+server:
+  servlet-path: /
+  port: 8088
+
+andy:
+  security:
+    code:
+      image:
+        length: 4
+        width: 100
+        height: 20
+        url: /user/*
+        expireIn: 60
+    browser:
+      loginType: REDIRECT
+      loginPage: /demo-login.html
+    social:
+      qq:
+        app-id:
+        app-secret:
+      weixin:
+        app-id:
+        app-secret:
