@@ -24,19 +24,13 @@ public class WeixinAdapter implements ApiAdapter<Weixin> {
 		this.openId = openId;
 	}
 
-	/**
-	 * @param api
-	 * @return
-	 */
+
 	@Override
 	public boolean test(Weixin api) {
 		return true;
 	}
 
-	/**
-	 * @param api
-	 * @param values
-	 */
+
 	@Override
 	public void setConnectionValues(Weixin api, ConnectionValues values) {
 		WeixinUserInfo profile = api.getUserInfo(openId);
@@ -45,19 +39,11 @@ public class WeixinAdapter implements ApiAdapter<Weixin> {
 		values.setImageUrl(profile.getHeadimgurl());
 	}
 
-	/**
-	 * @param api
-	 * @return
-	 */
 	@Override
 	public UserProfile fetchUserProfile(Weixin api) {
 		return null;
 	}
 
-	/**
-	 * @param api
-	 * @param message
-	 */
 	@Override
 	public void updateStatus(Weixin api, String message) {
 		//do nothing

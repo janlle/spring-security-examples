@@ -19,7 +19,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  **/
 public class WeixinImpl extends AbstractOAuth2ApiBinding implements Weixin {
 	
-
 	private ObjectMapper objectMapper = new ObjectMapper();
 
 	/**
