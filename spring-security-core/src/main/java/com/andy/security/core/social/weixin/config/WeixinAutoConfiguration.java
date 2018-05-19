@@ -1,11 +1,8 @@
-/**
- * 
- */
 package com.andy.security.core.social.weixin.config;
 
 import com.andy.security.core.properties.SecurityProperties;
 import com.andy.security.core.properties.WeixinProperties;
-import com.andy.security.core.social.ImoocConnectView;
+import com.andy.security.core.social.AndyConnectView;
 import com.andy.security.core.social.weixin.connect.WeixinConnectionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -17,11 +14,10 @@ import org.springframework.social.connect.ConnectionFactory;
 import org.springframework.web.servlet.View;
 
 /**
- * 微信登录配置
- * 
- * @author zhailiang
- *
- */
+ * @Description: 微信登录配置
+ * @Author: Mr.lyon
+ * @CreateBy: 2018-05-19 22:18
+ **/
 @Configuration
 @ConditionalOnProperty(prefix = "ruolin.security.social.weixin", name = "app-id")
 public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
@@ -39,7 +35,7 @@ public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
 	@Bean({"connect/weixinConnect", "connect/weixinConnected"})
 	@ConditionalOnMissingBean(name = "weixinConnectedView")
 	public View weixinConnectedView() {
-		return new ImoocConnectView();
+		return new AndyConnectView();
 	}
 	
 }

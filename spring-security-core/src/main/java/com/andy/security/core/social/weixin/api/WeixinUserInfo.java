@@ -4,9 +4,10 @@
 package com.andy.security.core.social.weixin.api;
 
 /**
- * 微信用户信息
- * 
- */
+ * @Description: 微信用户信息
+ * @Author: Mr.lyon
+ * @CreateBy: 2018-05-19 22:18
+ **/
 public class WeixinUserInfo {
 	
 	/**

@@ -3,6 +3,7 @@ package com.andy.web.interceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -11,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @author ruolin
  * create by 2017年11月6日下午5:06:20
  */
+@Slf4j
 @Component
 public class TimeInterceptor implements HandlerInterceptor {
 

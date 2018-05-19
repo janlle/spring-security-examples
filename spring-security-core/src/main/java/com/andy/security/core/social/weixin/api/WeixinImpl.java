@@ -1,12 +1,10 @@
-/**
- * 
- */
 package com.andy.security.core.social.weixin.api;
 
 import java.nio.charset.Charset;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.StringHttpMessageConverter;
 import org.springframework.social.oauth2.AbstractOAuth2ApiBinding;
@@ -15,17 +13,20 @@ import org.springframework.social.oauth2.TokenStrategy;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * Weixin API调用模板， scope为Request的Spring bean, 根据当前用户的accessToken创建。
- * 
- */
+ * @Description: Weixin API调用模板， scope为Request的Spring bean, 根据当前用户的accessToken创建。
+ * @Author: Mr.lyon
+ * @CreateBy: 2018-05-19 22:18
+ **/
 public class WeixinImpl extends AbstractOAuth2ApiBinding implements Weixin {
 	
 
 	private ObjectMapper objectMapper = new ObjectMapper();
+
 	/**
 	 * 获取用户信息的url
 	 */
-	private static final String URL_GET_USER_INFO = "https://api.weixin.qq.com/sns/userinfo?openid=";
+	@Value("${andy.security.social.weixin.userinfo-url}")
+	private String URL_GET_USER_INFO;
 	
 
 	public WeixinImpl(String accessToken) {

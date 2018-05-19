@@ -1,5 +1,8 @@
 package com.andy.web.filter;
 
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
+
 import java.io.IOException;
 
 import javax.servlet.Filter;
@@ -12,12 +15,13 @@ import javax.servlet.ServletResponse;
 /**
  * @author ruolin create by 2017年11月6日下午4:47:04
  */
-//@Component
+@Slf4j
+@Component
 public class TimeFilter implements Filter {
 
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
-//		System.out.println("time filter init");
+		log.info("time filter init");
 	}
 
 	@Override
@@ -28,12 +32,12 @@ public class TimeFilter implements Filter {
 		chain.doFilter(request, response);
 		long end = System.currentTimeMillis();
 //		System.out.println("time filter finish");
-//		System.out.println("time :" + (end - start)+"毫秒！");
+		log.info("time :" + (end - start)+"毫秒！");
 	}
 
 	@Override
 	public void destroy() {
-		System.out.println("time filter destroy");
+		log.info("time filter destroy");
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.andy.security.core.social.ocnfig;
+package com.andy.security.core.social.config;
 
 import com.andy.security.core.properties.QQProperties;
 import com.andy.security.core.properties.SecurityProperties;
@@ -10,8 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.social.connect.ConnectionFactory;
 
 /**
- * @author: Mr.ruolin
- * @createBy: 2018-04-7 14:17
+ * @Description: 微信API调用接口
+ * @Author: Mr.lyon
+ * @CreateBy: 2018-05-19 22:18
  **/
 @Configuration
 @ConditionalOnProperty(prefix = "ruolin.security.social.qq", name = "app-id")

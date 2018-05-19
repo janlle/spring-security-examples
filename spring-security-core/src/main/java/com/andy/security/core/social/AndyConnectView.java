@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.andy.security.core.social;
 
 import java.util.Map;
@@ -11,7 +8,12 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.view.AbstractView;
 
 
-public class ImoocConnectView extends AbstractView {
+/**
+ * @Description:
+ * @Author: Mr.lyon
+ * @CreateBy: 2018-05-19 22:18
+ **/
+public class AndyConnectView extends AbstractView {
 
 	@Override
 	protected void renderMergedOutputModel(Map<String, Object> model, HttpServletRequest request,
