@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.andy.security.core.social.weixin.connect;
 
 import com.andy.security.core.social.weixin.api.Weixin;
@@ -10,7 +7,9 @@ import org.springframework.social.oauth2.AbstractOAuth2ServiceProvider;
 
 /**
  * 微信的OAuth2流程处理器的提供器，供spring social的connect体系调用
- */
+ * @Author: Mr.lyon
+ * @CreateBy: 2018-05-19 22:18
+ **/
 public class WeixinServiceProvider extends AbstractOAuth2ServiceProvider<Weixin> {
 	
 	/**

@@ -32,3 +32,4 @@ andy:
       weixin:
         app-id:
         app-secret:
+        userinfo-url: https://api.weixin.qq.com/sns/userinfo?openid=

@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 import com.andy.exception.UserNotExistException;
 
+
+/**
+ * @author Mr.ruoLin
+ * create by 2017-11-5 2:14:58
+ */
 @ControllerAdvice
 public class ControllerExceptionHandler {
 

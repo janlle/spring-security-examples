@@ -14,8 +14,9 @@ import org.springframework.social.security.SpringSocialConfigurer;
 import javax.sql.DataSource;
 
 /**
- * @author: Mr.ruoLin
- * @createBy: 2018-04-07 13:56
+ * @Description:
+ * @Author: Mr.lyon
+ * @CreateBy: 2018-05-19 22:18
  **/
 @Configuration
 @EnableSocial
@@ -35,7 +36,5 @@ public class SocialConfig extends SocialConfigurerAdapter {
     public SpringSocialConfigurer ruolinSecuritySocialConfig() {
         return new SpringSocialConfigurer();
     }
-
-
 
 }

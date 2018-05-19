@@ -18,8 +18,14 @@ import org.springframework.web.servlet.view.AbstractView;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+
+/**
+ * @Description:
+ * @Author: Mr.lyon
+ * @CreateBy: 2018-05-19 22:18
+ **/
 @Component("connect/status")
-public class ImoocConnectionStatusView extends AbstractView {
+public class AndyConnectionStatusView extends AbstractView {
 	
 	@Autowired
 	private ObjectMapper objectMapper;
