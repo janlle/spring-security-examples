@@ -3,6 +3,7 @@ package com.andy.security.core.social.weixin.api;
 import java.nio.charset.Charset;
 import java.util.List;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -17,6 +18,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * @Author: Mr.lyon
  * @CreateBy: 2018-05-19 22:18
  **/
+@Slf4j
 public class WeixinImpl extends AbstractOAuth2ApiBinding implements Weixin {
 	
 	private ObjectMapper objectMapper = new ObjectMapper();
@@ -49,6 +51,7 @@ public class WeixinImpl extends AbstractOAuth2ApiBinding implements Weixin {
 	public WeixinUserInfo getUserInfo(String openId) {
 		String url = URL_GET_USER_INFO + openId;
 		String response = getRestTemplate().getForObject(url, String.class);
+		log.info("获取用户信息getUserInfo()的返回是:{}", response);
 		if(StringUtils.contains(response, "errcode")) {
 			return null;
 		}
@@ -56,6 +59,7 @@ public class WeixinImpl extends AbstractOAuth2ApiBinding implements Weixin {
 		try {
 			profile = objectMapper.readValue(response, WeixinUserInfo.class);
 		} catch (Exception e) {
+			log.info("json反序列化失败:{}", e.getMessage());
 			e.printStackTrace();
 		}
 		return profile;

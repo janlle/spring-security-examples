@@ -19,7 +19,7 @@ import org.springframework.web.servlet.View;
  * @CreateBy: 2018-05-19 22:18
  **/
 @Configuration
-@ConditionalOnProperty(prefix = "ruolin.security.social.weixin", name = "app-id")
+@ConditionalOnProperty(prefix = "andy.security.social.weixin", name = "app-id")
 public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
 
 	@Autowired
