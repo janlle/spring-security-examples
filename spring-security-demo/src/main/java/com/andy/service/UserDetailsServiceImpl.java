@@ -37,8 +37,7 @@ public class UserDetailsServiceImpl implements UserDetailsService, SocialUserDet
 		//真实项目中是数据库中的密码，目前定义为abcd
 		String password = passwordEncoder.encode("abcd");
 		log.info("数据库的密码是:{}",password);
-		return new SocialUser(userId, password,
-				true, true, true ,true,
+		return new SocialUser(userId, password, true, true, true ,true,
 				AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
 	}
 }

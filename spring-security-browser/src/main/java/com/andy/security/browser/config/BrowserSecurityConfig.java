@@ -24,27 +24,26 @@ import javax.sql.DataSource;
  * @author ruolin
  * create by 2017年11月12日上午8:36:39
  */
-@Configuration
 @Slf4j
+@Configuration
 public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Autowired
 	private SecurityProperties securityProperties;
 	@Autowired
-	private AuthenticationSuccessHandler ruolinAuthentictionSuccessHandler;
+	private AuthenticationSuccessHandler authSuccessHandler;
 	@Autowired
-	private AuthenticationFailureHandler ruolinAuthenticationFailureHandler;
+	private AuthenticationFailureHandler authFailureHandler;
 
 	@Autowired
 	private DataSource dataSource;
-
 
 	@Autowired
 	private UserDetailsService userDetailsService;
 
 
 	@Autowired
-	private SpringSocialConfigurer ruolinSecuritySocialConfig;
+	private SpringSocialConfigurer andySecuritySocialConfig;
 
 	@Bean
 	public PasswordEncoder passwordEncoder(){
@@ -62,34 +61,51 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 
-		ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
-		validateCodeFilter.setProperties(securityProperties);
-		validateCodeFilter.setAuthenticationFailureHandler(ruolinAuthenticationFailureHandler);
-		validateCodeFilter.afterPropertiesSet();
-
+//		ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
+//
+//		validateCodeFilter.setProperties(securityProperties);
+//		validateCodeFilter.setAuthenticationFailureHandler(authFailureHandler);
+//		validateCodeFilter.afterPropertiesSet();
 		log.info("配置文件中的登录页面是：" + securityProperties.getBrowser().getLoginPage());
-		http.apply(ruolinSecuritySocialConfig)
+//		http.apply(andySecuritySocialConfig)
+//			.and()
+//			.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
+//			.formLogin()
+////				.loginPage("/andy-login.html")
+//				.loginPage("/authentication/request")
+//				.loginProcessingUrl("/authentication/form")
+//				.successHandler(ruolinAuthentictionSuccessHandler)
+//				.failureHandler(ruolinAuthenticationFailureHandler)
+//				.and()
+//			.rememberMe()
+//				.tokenRepository(persistentTokenRepository())
+//				.tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
+//				.userDetailsService(userDetailsService)
+//				.and()
+//			.authorizeRequests()
+//				.antMatchers("/authentication/request", securityProperties.getBrowser().getLoginPage(), "/code/*")
+//				.permitAll()
+//				.anyRequest()
+//				.authenticated()
+//				.and()
+//				.csrf()
+//			.disable();
+		http.formLogin()
+				.successHandler(authSuccessHandler)
+				.failureHandler(authFailureHandler)
+				.loginPage("/andy-login.html")
+				.loginProcessingUrl("/authentication/form")
 				.and()
-				.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
-				.formLogin()
-	//				.loginPage("/andy-login.html")
-					.loginPage("/authentication/request")
-					.loginProcessingUrl("/authentication/form")
-					.successHandler(ruolinAuthentictionSuccessHandler)
-					.failureHandler(ruolinAuthenticationFailureHandler)
-					.and()
-				.rememberMe()
-					.tokenRepository(persistentTokenRepository())
-					.tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
-					.userDetailsService(userDetailsService)
-					.and()
 				.authorizeRequests()
-					.antMatchers("/authentication/request", securityProperties.getBrowser().getLoginPage(), "/code/*")
-					.permitAll()
-					.anyRequest()
-					.authenticated()
-					.and()
-					.csrf().disable();
+				.antMatchers("/andy-login.html")
+				.permitAll()
+				.anyRequest()
+				.authenticated()
+				.and()
+				.csrf()
+				.disable();
+
+
 
 	}
 

@@ -1,5 +1,6 @@
 package com.andy.security.core.social;
 
+import com.andy.security.core.properties.SecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -25,6 +26,9 @@ public class SocialConfig extends SocialConfigurerAdapter {
     @Autowired
     private DataSource dataSource;
 
+    @Autowired
+    private SecurityProperties securityProperties;
+
     @Override
     public UsersConnectionRepository getUsersConnectionRepository(ConnectionFactoryLocator connectionFactoryLocator) {
         JdbcUsersConnectionRepository jdbcUsersConnectionRepository = new JdbcUsersConnectionRepository(dataSource, connectionFactoryLocator, Encryptors.noOpText());
@@ -33,8 +37,10 @@ public class SocialConfig extends SocialConfigurerAdapter {
     }
 
     @Bean
-    public SpringSocialConfigurer ruolinSecuritySocialConfig() {
-        return new SpringSocialConfigurer();
+    public SpringSocialConfigurer andySecuritySocialConfig() {
+        String filterProcessesUrl = securityProperties.getSocial().getFilterProcessUrl();
+        AndySpringSocialConfigurer andySpringSocialConfigurer = new AndySpringSocialConfigurer(filterProcessesUrl);
+        return andySpringSocialConfigurer;
     }
 
 }

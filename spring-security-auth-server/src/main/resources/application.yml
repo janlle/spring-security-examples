@@ -1,0 +1,15 @@
+server:
+  servlet-path: /
+  port: 8080
+security:
+  user:
+    password: admin
+    name: user
+  basic:
+    enabled: true
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/oauth?useSSL=true&characterEncoding=UTF-8
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver

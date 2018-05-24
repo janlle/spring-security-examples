@@ -6,6 +6,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,11 +21,9 @@ import com.andy.security.core.properties.SecurityProperties;
 /**
  * @author ruolin create by 2017年11月19日下午2:56:11
  */
-@Component("ruolinAuthentictionSuccessHandler")
-// public class RuolinAuthentictionSuccessHandler implements
-// AuthenticationSuccessHandler {
-public class RuolinAuthentictionSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
-	private Logger logger = LoggerFactory.getLogger(RuolinAuthentictionSuccessHandler.class);
+@Slf4j
+@Component("authSuccessHandler")
+public class AuthSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
 
 	@Autowired
 	private ObjectMapper objectMapper;
@@ -35,8 +34,9 @@ public class RuolinAuthentictionSuccessHandler extends SavedRequestAwareAuthenti
 	@Override
 	public void onAuthenticationSuccess(HttpServletRequest req, HttpServletResponse resp, Authentication authentication)
 			throws IOException, ServletException {
-		logger.info("登录成功！");
-
+		log.info("登录成功！");
+//		resp.setContentType("application/json;charset=utf-8");
+//		resp.getWriter().write(objectMapper.writeValueAsString(authentication));
 		if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
 			resp.setContentType("application/json;charset=utf-8");
 			resp.getWriter().write(objectMapper.writeValueAsString(authentication));

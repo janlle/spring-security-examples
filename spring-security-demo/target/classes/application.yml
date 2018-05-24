@@ -24,11 +24,15 @@ andy:
         expireIn: 60
     browser:
       loginType: REDIRECT
-      loginPage: /demo-login.html
+      loginPage: /andy-login.html
     social:
       qq:
         app-id:
         app-secret:
+        providerId: callback.do
       weixin:
-        app-id:
-        app-secret:
+        app-id: wx056d93262f42bd10
+        app-secret: 3rGQiBNcsuZ8Fxl9lfyQ74buvuPBtHDO
+        userinfo-url: https://api.weixin.qq.com/sns/userinfo?openid=
+        providerId: wexin
+      filterProcessUrl: /qqLogin

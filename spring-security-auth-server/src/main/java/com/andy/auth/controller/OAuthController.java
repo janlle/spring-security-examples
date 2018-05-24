@@ -15,6 +15,10 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 public class OAuthController {
 
+    //http://localhost:8080/oauth/authorize?client_id=client&response_type=code&redirect_uri=http://127.0.0.1:8080/server/auth
+
+    //http://127.0.0.1:8080/server/auth
+
     @GetMapping("/server/auth")
     public String auth(String code, HttpServletRequest request) {
         String reqUrl = request.getRequestURL().toString();

@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.andy.security.browser.support.SimpleResponse;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,12 +23,9 @@ import com.andy.security.core.properties.SecurityProperties;
 /**
  * @author ruolin create by 2017年11月19日下午3:12:07
  */
-@Component("ruolinAuthenticationFailureHandler")
-// public class RuolinAuthenticationFailureHandler implements
-// AuthenticationFailureHandler {
-public class RuolinAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
-
-	private Logger logger = LoggerFactory.getLogger(RuolinAuthenticationFailureHandler.class);
+@Slf4j
+@Component("authFailureHandler")
+public class AuthFailureHandler extends SimpleUrlAuthenticationFailureHandler {
 
 	@Autowired
 	private ObjectMapper objectMapper;
@@ -38,8 +36,10 @@ public class RuolinAuthenticationFailureHandler extends SimpleUrlAuthenticationF
 	@Override
 	public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response,
 			AuthenticationException exception) throws IOException, ServletException {
-		logger.info("登录失败！");
-
+		log.info("登录失败！");
+//		response.setContentType("application/json;charset=utf-8");
+//		response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
+//		response.getWriter().write(objectMapper.writeValueAsString(exception));
 		if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
 			response.setContentType("application/json;charset=utf-8");
 			response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
