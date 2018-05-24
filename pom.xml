@@ -29,6 +29,15 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.18</version>
+		</dependency>
+	</dependencies>
 	
 	<build>
 		<plugins>
@@ -49,5 +58,6 @@
 		<module>spring-security-browser</module>
 		<module>spring-security-core</module>
 		<module>spring-security-demo</module>
-	</modules>
+        <module>spring-security-auth-server</module>
+    </modules>
 </project>
