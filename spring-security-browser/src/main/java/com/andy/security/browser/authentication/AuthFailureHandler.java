@@ -17,8 +17,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author ruolin create by 2017年11月19日下午3:12:07
- */
+ * @author: Mr.lyon
+ * @createBy: 2017-11-19 3:12:07
+ **/
 @Slf4j
 @Component("authFailureHandler")
 public class AuthFailureHandler extends SimpleUrlAuthenticationFailureHandler {
