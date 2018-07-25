@@ -1,6 +1,6 @@
 package com.andy.security.core.validate.code;
 
-import com.andy.security.core.properties.SecurityProperties;
+import com.andy.security.core.property.SecurityProperties;
 import com.andy.security.core.validate.code.sms.DefaultSender;
 import com.andy.security.core.validate.code.sms.SmsCodeSender;
 import org.springframework.beans.factory.annotation.Autowired;

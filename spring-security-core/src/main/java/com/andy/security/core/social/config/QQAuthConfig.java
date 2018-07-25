@@ -1,7 +1,7 @@
 package com.andy.security.core.social.config;
 
-import com.andy.security.core.properties.QQProperties;
-import com.andy.security.core.properties.SecurityProperties;
+import com.andy.security.core.property.QQProperties;
+import com.andy.security.core.property.SecurityProperties;
 import com.andy.security.core.social.qq.connet.QQConnectionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

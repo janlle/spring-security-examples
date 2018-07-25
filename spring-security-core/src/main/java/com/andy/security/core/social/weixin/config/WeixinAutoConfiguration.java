@@ -1,7 +1,7 @@
 package com.andy.security.core.social.weixin.config;
 
-import com.andy.security.core.properties.SecurityProperties;
-import com.andy.security.core.properties.WeixinProperties;
+import com.andy.security.core.property.SecurityProperties;
+import com.andy.security.core.property.WeixinProperties;
 import com.andy.security.core.social.AndyConnectView;
 import com.andy.security.core.social.weixin.connect.WeixinConnectionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

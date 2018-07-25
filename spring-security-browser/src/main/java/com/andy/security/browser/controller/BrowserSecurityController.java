@@ -17,7 +17,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import com.andy.security.browser.support.SimpleResponse;
-import com.andy.security.core.properties.SecurityProperties;
+import com.andy.security.core.property.SecurityProperties;
 
 /**
  * @author ruolin

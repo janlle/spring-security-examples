@@ -1,8 +1,8 @@
 package com.andy.security.browser.authentication;
 
 import com.andy.security.browser.support.SimpleResponse;
-import com.andy.security.core.properties.LoginType;
-import com.andy.security.core.properties.SecurityProperties;
+import com.andy.security.core.property.LoginType;
+import com.andy.security.core.property.SecurityProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
