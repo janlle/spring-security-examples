@@ -19,9 +19,9 @@ import org.springframework.social.security.SpringSocialConfigurer;
 import javax.sql.DataSource;
 
 /**
- * @author ruolin
- * create by 2017年11月12日上午8:36:39
- */
+ * @author: Mr.lyon
+ * @createBy: 2017-11-12 8:36:39
+ **/
 @Slf4j
 @Configuration
 public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {

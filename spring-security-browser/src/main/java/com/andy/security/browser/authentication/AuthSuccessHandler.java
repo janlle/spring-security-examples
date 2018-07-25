@@ -19,8 +19,9 @@ import com.andy.security.core.properties.LoginType;
 import com.andy.security.core.properties.SecurityProperties;
 
 /**
- * @author ruolin create by 2017年11月19日下午2:56:11
- */
+ * @author: Mr.lyon
+ * @createBy: 2017-11-19 2:56:11
+ **/
 @Slf4j
 @Component("authSuccessHandler")
 public class AuthSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
