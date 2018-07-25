@@ -1,6 +1,6 @@
 package com.andy.security.browser.config;
 
-import com.andy.security.core.properties.SecurityProperties;
+import com.andy.security.core.property.SecurityProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

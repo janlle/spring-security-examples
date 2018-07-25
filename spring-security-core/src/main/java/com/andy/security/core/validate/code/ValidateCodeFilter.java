@@ -1,6 +1,6 @@
 package com.andy.security.core.validate.code;
 
-import com.andy.security.core.properties.SecurityProperties;
+import com.andy.security.core.property.SecurityProperties;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.andy.security.core.properties;
+package com.andy.security.core.property;
 
 import lombok.Data;
 import org.springframework.boot.autoconfigure.social.SocialProperties;
