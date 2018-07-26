@@ -1,6 +1,6 @@
 package com.andy.web.controller;
 
-import com.andy.entity.Users;
+import com.andy.entity.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,8 +14,8 @@ import java.util.Date;
 public class UserController {
 
     @GetMapping("/user")
-    public Users getUser() {
-        Users user = new Users();
+    public User getUser() {
+        User user = new User();
         user.setSalary(1000);
         user.setId(12);
         user.setUsername("tom");
