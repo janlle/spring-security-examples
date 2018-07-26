@@ -20,8 +20,8 @@ import com.andy.security.browser.support.SimpleResponse;
 import com.andy.security.core.property.SecurityProperties;
 
 /**
- * @author Mr.lyon
- * @CreateBy: 2017-11-19 2:08
+ * @author: Mr.lyon
+ * @createBy: 2017-11-19 2:08
  */
 @Slf4j
 @RestController

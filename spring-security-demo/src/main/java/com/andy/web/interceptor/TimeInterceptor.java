@@ -9,8 +9,8 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author Mr.lyon
- * @CreateBy: 2017-11-6 5:06
+ * @author: Mr.lyon
+ * @createBy: 2017-11-6 5:06
  */
 @Slf4j
 @Component

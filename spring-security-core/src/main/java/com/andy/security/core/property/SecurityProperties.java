@@ -4,11 +4,11 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author Mr.lyon
- * @CreateBy: 2017-11-19 2:30:39
+ * @author: Mr.lyon
+ * @createBy: 2017-11-19 2:30:39
  */
 @Data
-@ConfigurationProperties(prefix = "andy.security")
+@ConfigurationProperties(prefix = "module.security")
 public class SecurityProperties {
 
     private BrowserProperties browser = new BrowserProperties();

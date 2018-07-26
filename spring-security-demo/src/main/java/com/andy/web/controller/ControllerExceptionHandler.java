@@ -13,8 +13,8 @@ import com.andy.exception.UserNotExistException;
 
 
 /**
- * @author Mr.lyon
- * @CreateBy: 2017-11-5 2:14:58
+ * @author: Mr.lyon
+ * @createBy: 2017-11-5 2:14:58
  */
 @ControllerAdvice
 public class ControllerExceptionHandler {
