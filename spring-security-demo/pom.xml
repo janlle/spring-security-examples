@@ -13,7 +13,7 @@
         <dependency>
             <groupId>com.andy.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>${andy.security.version}</version>
+            <version>${module.security.version}</version>
         </dependency>
 
         <dependency>
