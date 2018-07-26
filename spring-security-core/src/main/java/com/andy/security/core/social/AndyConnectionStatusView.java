@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.andy.security.core.social;
 
 import java.util.HashMap;
@@ -18,10 +15,9 @@ import org.springframework.web.servlet.view.AbstractView;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-
 /**
- * @Description:
- * @Author: Mr.lyon
+ *
+ * @author: Mr.lyon
  * @CreateBy: 2018-05-19 22:18
  **/
 @Component("connect/status")

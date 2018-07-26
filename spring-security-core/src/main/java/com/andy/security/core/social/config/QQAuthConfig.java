@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.social.connect.ConnectionFactory;
 
 /**
- * @Description: 微信API调用接口
- * @Author: Mr.lyon
+ * 微信API调用接口
+ * @author: Mr.lyon
  * @CreateBy: 2018-05-19 22:18
  **/
 @Configuration
-@ConditionalOnProperty(prefix = "ruolin.security.social.qq", name = "app-id")
+@ConditionalOnProperty(prefix = "model.security.social.qq", name = "app-id")
 public class QQAuthConfig extends SocialAutoConfigurerAdapter {
 
     @Autowired

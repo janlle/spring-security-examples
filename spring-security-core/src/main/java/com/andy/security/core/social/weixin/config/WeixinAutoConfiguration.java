@@ -14,8 +14,8 @@ import org.springframework.social.connect.ConnectionFactory;
 import org.springframework.web.servlet.View;
 
 /**
- * @Description: 微信登录配置
- * @Author: Mr.lyon
+ *  微信登录配置
+ * @author: Mr.lyon
  * @CreateBy: 2018-05-19 22:18
  **/
 @Configuration

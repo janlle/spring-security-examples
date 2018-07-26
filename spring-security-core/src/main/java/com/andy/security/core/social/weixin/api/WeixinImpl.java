@@ -14,8 +14,8 @@ import org.springframework.social.oauth2.TokenStrategy;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @Description: Weixin API调用模板， scope为Request的Spring bean, 根据当前用户的accessToken创建。
- * @Author: Mr.lyon
+ *  Weixin API调用模板， scope为Request的Spring bean, 根据当前用户的accessToken创建。
+ * @author: Mr.lyon
  * @CreateBy: 2018-05-19 22:18
  **/
 @Slf4j

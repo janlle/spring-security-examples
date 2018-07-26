@@ -4,8 +4,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 
 /**
- * @Description:
- * @Author: Mr.lyon
+ *
+ * @author: Mr.lyon
  * @CreateBy: 2018-05-28 22:14
  **/
 @Configuration

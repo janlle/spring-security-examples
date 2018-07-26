@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Date;
 
 /**
- * @author Mr.ruoLin
- * create by 2017-11-5 2:14:58
+ * @author Mr.lyon
+ * @createBy 2017-11-5 2:14:58
  */
 @RestController
 public class UserController {

@@ -28,8 +28,10 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private SecurityProperties securityProperties;
+
     @Autowired
     private AuthenticationSuccessHandler authSuccessHandler;
+
     @Autowired
     private AuthenticationFailureHandler authFailureHandler;
 
@@ -38,7 +40,6 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private UserDetailsService userDetailsService;
-
 
     @Autowired
     private SpringSocialConfigurer andySecuritySocialConfig;
@@ -58,13 +59,13 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        log.info("配置文件中的登录页面是：" + securityProperties.getBrowser().getLoginPage());
 
 //		ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
 //
 //		validateCodeFilter.setProperties(securityProperties);
 //		validateCodeFilter.setAuthenticationFailureHandler(authFailureHandler);
 //		validateCodeFilter.afterPropertiesSet();
-        log.info("配置文件中的登录页面是：" + securityProperties.getBrowser().getLoginPage());
 //		http.apply(andySecuritySocialConfig)
 //			.and()
 //			.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
