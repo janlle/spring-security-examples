@@ -2,7 +2,7 @@ package com.andy.common;
 
 /**
  * @author: Mr.ruoLin
- * @createBy: 2018-06-03
+ * @createBy: 2018-01-03
  **/
 public enum ResultEnum {
 
