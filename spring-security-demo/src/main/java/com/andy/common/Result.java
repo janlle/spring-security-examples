@@ -6,9 +6,9 @@ import java.io.Serializable;
 
 /**
  * 基本返回结果集
- *
- * @param <T>
- */
+ * @author: Mr.lyon
+ * @createBy: 2018-07-26 23:44
+ **/
 @Data
 public class Result<T> implements Serializable {
 

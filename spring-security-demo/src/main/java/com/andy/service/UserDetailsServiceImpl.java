@@ -13,6 +13,10 @@ import org.springframework.social.security.SocialUserDetails;
 import org.springframework.social.security.SocialUserDetailsService;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author: Mr.lyon
+ * @createBy: 2018-01-26 23:44
+ **/
 @Slf4j
 @Component
 public class UserDetailsServiceImpl implements UserDetailsService, SocialUserDetailsService {

@@ -13,6 +13,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import com.andy.web.filter.TimeFilter;
 import com.andy.web.interceptor.TimeInterceptor;
 
+/**
+ * @author: Mr.lyon
+ * @createBy: 2018-01-26 23:44
+ **/
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
 
