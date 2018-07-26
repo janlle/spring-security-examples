@@ -1,19 +1,12 @@
 spring:
-  profiles:
-    active: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/study-test?useSSL=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/boot?useSSL=false
     password: root
     username: root
     driver-class-name: com.mysql.jdbc.Driver
   session:
     store-type: none
-
-server:
-  servlet-path: /
-  port: 8088
-
-andy:
+module:
   security:
     code:
       image:
@@ -30,7 +23,7 @@ andy:
         app-id:
         app-secret:
         providerId: callback.do
-      weixin:
+      wx:
         app-id: wx056d93262f42bd10
         app-secret: 3rGQiBNcsuZ8Fxl9lfyQ74buvuPBtHDO
         userinfo-url: https://api.weixin.qq.com/sns/userinfo?openid=

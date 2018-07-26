@@ -5,14 +5,14 @@
     <parent>
         <groupId>com.andy.security</groupId>
         <artifactId>spring-security-examples</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.3.RELEASE</version>
     </parent>
 
     <dependencies>
         <dependency>
             <groupId>com.andy.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>${andy.security.version}</version>
+            <version>${module.security.version}</version>
         </dependency>
 
         <dependency>
