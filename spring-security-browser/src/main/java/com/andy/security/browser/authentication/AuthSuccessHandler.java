@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
@@ -34,10 +35,8 @@ public class AuthSuccessHandler extends SavedRequestAwareAuthenticationSuccessHa
     public void onAuthenticationSuccess(HttpServletRequest req, HttpServletResponse resp, Authentication authentication)
             throws IOException, ServletException {
         log.info("登录成功！");
-//		resp.setContentType("application/json;charset=utf-8");
-//		resp.getWriter().write(objectMapper.writeValueAsString(authentication));
         if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
-            resp.setContentType("application/json;charset=utf-8");
+            resp.setContentType(MediaType.APPLICATION_JSON_UTF8_VALUE);
             resp.getWriter().write(objectMapper.writeValueAsString(authentication));
         } else {
             super.onAuthenticationSuccess(req, resp, authentication);

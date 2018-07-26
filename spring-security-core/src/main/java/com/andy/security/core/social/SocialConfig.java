@@ -15,7 +15,6 @@ import org.springframework.social.security.SpringSocialConfigurer;
 import javax.sql.DataSource;
 
 /**
- *
  * @author: Mr.lyon
  * @createBy: 2018-05-19 22:18
  **/

@@ -1,9 +1,12 @@
 package com.andy.security.core.validate.code;
 
 import lombok.Data;
+
 import java.time.LocalDateTime;
+
 /**
  * 短信验证码实体
+ *
  * @author: Mr.lyon
  * @createBy: 2018-04-7 18:02
  **/

@@ -16,7 +16,7 @@ public class ImageCodeGenerator implements ValidateCodeGenerator {
 
     private SecurityProperties properties;
 
-    public ImageCode generate(ServletWebRequest request){
+    public ImageCode generate(ServletWebRequest request) {
         int width = ServletRequestUtils.getIntParameter(request.getRequest(), "width",
                 properties.getCode().getImage().getWidth());
         int height = ServletRequestUtils.getIntParameter(request.getRequest(), "height",
