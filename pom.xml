@@ -67,6 +67,7 @@
         <module>spring-security-core</module>
         <module>spring-security-demo</module>
         <module>spring-security-auth-server</module>
+        <module>spring-security-oauth</module>
     </modules>
 
     <repositories>
