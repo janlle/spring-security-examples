@@ -15,20 +15,20 @@ public class ValidateCode {
 
     private String code;
 
-    private LocalDateTime exprieTime;
+    private LocalDateTime expiredTime;
 
-    public boolean isExpried() {
-        return LocalDateTime.now().isAfter(exprieTime);
+    public boolean isExpiredTime() {
+        return LocalDateTime.now().isAfter(expiredTime);
     }
 
-    public ValidateCode(String code, int expriedTime) {
+    public ValidateCode(String code, int expiredTime) {
         this.code = code;
-        this.exprieTime = LocalDateTime.now().plusSeconds(expriedTime);
+        this.expiredTime = LocalDateTime.now().plusSeconds(expiredTime);
     }
 
-    public ValidateCode(String code, LocalDateTime exprieTime) {
+    public ValidateCode(String code, LocalDateTime expiredTime) {
         this.code = code;
-        this.exprieTime = exprieTime;
+        this.expiredTime = expiredTime;
     }
 
     public ValidateCode() {

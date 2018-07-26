@@ -40,16 +40,16 @@ public class ValidateCodeController {
 
     @GetMapping("/code/image")
     public void createCode(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        ImageCode imageCode = (ImageCode)imageCodeGenerator.generate(new ServletWebRequest(request, response));
+        ImageCode imageCode = (ImageCode) imageCodeGenerator.generate(new ServletWebRequest(request, response));
         sessionStrategy.setAttribute(new ServletWebRequest(request), SESSION_KEY, imageCode);
-        ImageIO.write(imageCode.getBufferedImage(),"JPEG", response.getOutputStream());
+        ImageIO.write(imageCode.getBufferedImage(), "JPEG", response.getOutputStream());
     }
 
     @GetMapping("/code/sms")
     public void createSms(HttpServletRequest request, HttpServletResponse response) throws Exception {
         ValidateCode smsCode = smsCodeGenerator.generate(new ServletWebRequest(request, response));
         sessionStrategy.setAttribute(new ServletWebRequest(request), SESSION_KEY, smsCode);
-        String mobile = ServletRequestUtils.getRequiredStringParameter(request,"mobile");
+        String mobile = ServletRequestUtils.getRequiredStringParameter(request, "mobile");
         smsCodeSender.send(mobile, smsCode.getCode());
     }
 

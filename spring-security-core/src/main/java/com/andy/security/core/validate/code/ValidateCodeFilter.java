@@ -43,7 +43,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
     @Override
     public void afterPropertiesSet() throws ServletException {
         super.afterPropertiesSet();
-        String[] strUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(properties.getCode().getImage().getUrl(),",");
+        String[] strUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(properties.getCode().getImage().getUrl(), ",");
         for (String url : strUrls) {
             urls.add(url);
         }
@@ -85,7 +85,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
             throw new ValidateCodeException("验证码不存在");
         }
 
-        if (codeInSession.isExpried()) {
+        if (codeInSession.isExpiredTime()) {
             sessionStrategy.removeAttribute(request, ValidateCodeController.SESSION_KEY);
             throw new ValidateCodeException("验证码已经过期");
         }
