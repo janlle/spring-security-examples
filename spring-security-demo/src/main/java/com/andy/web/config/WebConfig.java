@@ -15,21 +15,21 @@ import com.andy.web.interceptor.TimeInterceptor;
 
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
-	
-	@Autowired
-	private TimeInterceptor timeInterceptor;
-	
-	@Bean
-	public FilterRegistrationBean timeFilter(){
-		FilterRegistrationBean filterBean = new FilterRegistrationBean(new TimeFilter());
-		List<String> urls = new ArrayList<String>();
-		urls.add("/*");
-		filterBean.setUrlPatterns(urls);
-		return filterBean;
-	}
-	
-	@Override
-	public void addInterceptors(InterceptorRegistry registry) {
-		registry.addInterceptor(timeInterceptor);
-	}
+
+    @Autowired
+    private TimeInterceptor timeInterceptor;
+
+    @Bean
+    public FilterRegistrationBean timeFilter() {
+        FilterRegistrationBean filterBean = new FilterRegistrationBean(new TimeFilter());
+        List<String> urls = new ArrayList<String>();
+        urls.add("/*");
+        filterBean.setUrlPatterns(urls);
+        return filterBean;
+    }
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(timeInterceptor);
+    }
 }

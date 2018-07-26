@@ -20,25 +20,25 @@ import javax.servlet.ServletResponse;
 @Component
 public class TimeFilter implements Filter {
 
-	@Override
-	public void init(FilterConfig filterConfig) throws ServletException {
-		log.info("time filter init");
-	}
+    @Override
+    public void init(FilterConfig filterConfig) throws ServletException {
+        log.info("time filter init");
+    }
 
-	@Override
-	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
-			throws IOException, ServletException {
-		long start = System.currentTimeMillis();
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+            throws IOException, ServletException {
+        long start = System.currentTimeMillis();
 //		System.out.println("time filter start");
-		chain.doFilter(request, response);
-		long end = System.currentTimeMillis();
+        chain.doFilter(request, response);
+        long end = System.currentTimeMillis();
 //		System.out.println("time filter finish");
-		log.info("time :" + (end - start)+"毫秒！");
-	}
+        log.info("time :" + (end - start) + "毫秒！");
+    }
 
-	@Override
-	public void destroy() {
-		log.info("time filter destroy");
-	}
+    @Override
+    public void destroy() {
+        log.info("time filter destroy");
+    }
 
 }

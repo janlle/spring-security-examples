@@ -16,28 +16,28 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserDetailsServiceImpl implements UserDetailsService, SocialUserDetailsService {
 
-	@Autowired
-	private PasswordEncoder passwordEncoder;
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
-	@Override
-	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		//真实项目中是数据库中的密码，目前定义为abcd
-		String password = passwordEncoder.encode("abcd");
-		log.info("表单登录名是:{}",username);
-		return buildUser(username);
-	}
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        //真实项目中是数据库中的密码，目前定义为abcd
+        String password = passwordEncoder.encode("abcd");
+        log.info("表单登录名是:{}", username);
+        return buildUser(username);
+    }
 
-	@Override
-	public SocialUserDetails loadUserByUserId(String userId) throws UsernameNotFoundException {
-		log.info("社交登录ID是:{}",userId);
-		return buildUser(userId);
-	}
+    @Override
+    public SocialUserDetails loadUserByUserId(String userId) throws UsernameNotFoundException {
+        log.info("社交登录ID是:{}", userId);
+        return buildUser(userId);
+    }
 
-	private SocialUserDetails buildUser(String userId) {
-		//真实项目中是数据库中的密码，目前定义为abcd
-		String password = passwordEncoder.encode("abcd");
-		log.info("数据库的密码是:{}",password);
-		return new SocialUser(userId, password, true, true, true ,true,
-				AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
-	}
+    private SocialUserDetails buildUser(String userId) {
+        //真实项目中是数据库中的密码，目前定义为abcd
+        String password = passwordEncoder.encode("abcd");
+        log.info("数据库的密码是:{}", password);
+        return new SocialUser(userId, password, true, true, true, true,
+                AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
+    }
 }

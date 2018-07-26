@@ -19,15 +19,15 @@ import com.andy.exception.UserNotExistException;
 @ControllerAdvice
 public class ControllerExceptionHandler {
 
-	@ResponseBody
-	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-	@ExceptionHandler(UserNotExistException.class)
-	public Map<String, Object> userNotExistException(UserNotExistException e){
-		Map<String, Object> map = new HashMap<>();
-		map.put("id", e.getId());
-		map.put("message", e.getMessage());
-		return map;
-	}
-	
-	
+    @ResponseBody
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    @ExceptionHandler(UserNotExistException.class)
+    public Map<String, Object> userNotExistException(UserNotExistException e) {
+        Map<String, Object> map = new HashMap<>();
+        map.put("id", e.getId());
+        map.put("message", e.getMessage());
+        return map;
+    }
+
+
 }

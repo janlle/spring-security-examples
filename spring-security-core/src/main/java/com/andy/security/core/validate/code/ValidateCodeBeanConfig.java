@@ -20,7 +20,7 @@ public class ValidateCodeBeanConfig {
 
     @Bean
     @ConditionalOnMissingBean(name = "imageCodeGenerator")
-    public ValidateCodeGenerator imageCodeGenerator(){
+    public ValidateCodeGenerator imageCodeGenerator() {
         ImageCodeGenerator codeGenerator = new ImageCodeGenerator();
         codeGenerator.setProperties(securityProperties);
         return codeGenerator;
@@ -28,7 +28,7 @@ public class ValidateCodeBeanConfig {
 
     @Bean
     @ConditionalOnMissingBean(SmsCodeSender.class)
-    public SmsCodeSender smsCodeSender(){
+    public SmsCodeSender smsCodeSender() {
         return new DefaultSender();
     }
 
