@@ -6,7 +6,7 @@ import org.springframework.social.oauth2.AbstractOAuth2ServiceProvider;
 import org.springframework.social.oauth2.OAuth2Template;
 
 /**
- * @author: Mr.@author:
+ * @author: Mr.lyon
  * @createBy: 2018-03-10 19:36
  **/
 public class QQServiceProvider extends AbstractOAuth2ServiceProvider<QQ> {
