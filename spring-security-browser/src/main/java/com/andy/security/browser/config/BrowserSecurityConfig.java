@@ -20,7 +20,7 @@ import javax.sql.DataSource;
 
 /**
  * @author: Mr.lyon
- * @createBy: 2017-11-12 8:36:39
+ * @createBy: 2017-11-12 8:36
  **/
 @Slf4j
 @Configuration
@@ -73,8 +73,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 ////				.loginPage("/andy-login.html")
 //				.loginPage("/authentication/request")
 //				.loginProcessingUrl("/authentication/form")
-//				.successHandler(ruolinAuthentictionSuccessHandler)
-//				.failureHandler(ruolinAuthenticationFailureHandler)
+//				.successHandler(AuthenticationSuccessHandler)
+//				.failureHandler(AuthenticationFailureHandler)
 //				.and()
 //			.rememberMe()
 //				.tokenRepository(persistentTokenRepository())

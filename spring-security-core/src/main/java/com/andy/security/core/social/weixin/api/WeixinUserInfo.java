@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  *  微信用户信息
  * @author: Mr.lyon
- * @CreateBy: 2018-05-19 22:18
+ * @createBy: 2018-05-19 22:18
  **/
 @Data
 public class WeixinUserInfo {

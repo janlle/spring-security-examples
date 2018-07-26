@@ -21,7 +21,7 @@ import com.andy.security.core.property.SecurityProperties;
 
 /**
  * @author Mr.lyon
- * @createBy 2017年11月19日下午2:08:28
+ * @CreateBy: 2017-11-19 2:08
  */
 @Slf4j
 @RestController

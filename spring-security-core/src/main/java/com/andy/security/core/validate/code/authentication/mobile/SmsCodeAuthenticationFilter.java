@@ -9,19 +9,21 @@ import org.springframework.util.Assert;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 /**
  * @author: Mr.lyon
  * @createBy: 2018-04-07 12:13
  **/
-public class SmsCodeAuthneticationFilter extends AbstractAuthenticationProcessingFilter {
+public class SmsCodeAuthenticationFilter extends AbstractAuthenticationProcessingFilter {
 
-    public static final String RUOLIN_FORM_MOBILE_KEY = "mobile";
+    public static final String MODULE_FORM_MOBILE_KEY = "mobile";
 
-    private String usernameParameter = RUOLIN_FORM_MOBILE_KEY;
+    private String usernameParameter = MODULE_FORM_MOBILE_KEY;
+
     private boolean postOnly = true;
 
 
-    public SmsCodeAuthneticationFilter() {
+    public SmsCodeAuthenticationFilter() {
         super(new AntPathRequestMatcher("/authentication/mobile", "POST"));
     }
 
