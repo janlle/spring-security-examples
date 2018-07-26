@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  * @author Mr.lyon
- * @createBy 2017年11月6日下午5:06:20
+ * @CreateBy: 2017-11-6 5:06
  */
 @Slf4j
 @Component

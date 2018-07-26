@@ -5,16 +5,16 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * @author Mr.lyon
- * @createBy 2017年11月19日下午2:30:39
+ * @CreateBy: 2017-11-19 2:30:39
  */
 @Data
 @ConfigurationProperties(prefix = "andy.security")
 public class SecurityProperties {
 
-	private BrowserProperties browser = new BrowserProperties();
+    private BrowserProperties browser = new BrowserProperties();
 
-	private ValidateCodeProperties code = new ValidateCodeProperties();
+    private ValidateCodeProperties code = new ValidateCodeProperties();
 
-	private SocialProperties social = new SocialProperties();
+    private SocialProperties social = new SocialProperties();
 
 }

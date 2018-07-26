@@ -18,7 +18,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  *
  * @author: Mr.lyon
- * @CreateBy: 2018-05-19 22:18
+ * @createBy: 2018-05-19 22:18
  **/
 @Component("connect/status")
 public class AndyConnectionStatusView extends AbstractView {
