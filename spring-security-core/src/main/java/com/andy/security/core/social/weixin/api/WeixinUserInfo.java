@@ -3,8 +3,8 @@ package com.andy.security.core.social.weixin.api;
 import lombok.Data;
 
 /**
- * @Description: 微信用户信息
- * @Author: Mr.lyon
+ *  微信用户信息
+ * @author: Mr.lyon
  * @CreateBy: 2018-05-19 22:18
  **/
 @Data

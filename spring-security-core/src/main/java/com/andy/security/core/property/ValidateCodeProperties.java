@@ -3,7 +3,7 @@ package com.andy.security.core.property;
 import lombok.Data;
 
 /**
- * @author: Mr.ruoLin
+ * @author: Mr.lyon
  * @createBy: 2018-04-07 07:59
  **/
 @Data

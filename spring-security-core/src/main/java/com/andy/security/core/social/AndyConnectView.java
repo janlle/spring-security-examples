@@ -9,8 +9,8 @@ import org.springframework.web.servlet.view.AbstractView;
 
 
 /**
- * @Description:
- * @Author: Mr.lyon
+ *
+ * @author: Mr.lyon
  * @CreateBy: 2018-05-19 22:18
  **/
 public class AndyConnectView extends AbstractView {

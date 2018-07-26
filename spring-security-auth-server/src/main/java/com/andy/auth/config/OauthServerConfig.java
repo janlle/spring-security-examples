@@ -17,8 +17,8 @@ import javax.sql.DataSource;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Description:
- * @Author: Mr.lyon
+ *
+ * @author: Mr.lyon
  * @CreateBy: 2018-05-23 22:11
  **/
 @Configuration
