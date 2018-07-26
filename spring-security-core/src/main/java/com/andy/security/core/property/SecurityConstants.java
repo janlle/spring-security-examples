@@ -24,7 +24,6 @@ public interface SecurityConstants {
 	 String DEFAULT_LOGIN_PROCESSING_URL_MOBILE = "/authentication/mobile";
 	/**
 	 * 默认登录页面
-	 * 
 	 */
 	 String DEFAULT_LOGIN_PAGE_URL = "/andy-signIn.html";
 	/**
@@ -43,5 +42,4 @@ public interface SecurityConstants {
 	 * session失效默认的跳转地址
 	 */
 	 String DEFAULT_SESSION_INVALID_URL = "/session/invalid";
-
 }

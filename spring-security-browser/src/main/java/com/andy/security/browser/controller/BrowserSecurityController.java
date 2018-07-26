@@ -27,12 +27,15 @@ import com.andy.security.core.property.SecurityProperties;
 @RestController
 public class BrowserSecurityController {
 
-    private RequestCache requestCache = new HttpSessionRequestCache();
+    @Autowired
+    private RequestCache requestCache;
 
-    private RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();
+    @Autowired
+    private RedirectStrategy redirectStrategy;
 
     @Autowired
     private SecurityProperties securityProperties;
+
 
     @ResponseStatus(code = HttpStatus.UNAUTHORIZED)
     @GetMapping("/authentication/request")
@@ -47,5 +50,6 @@ public class BrowserSecurityController {
         }
         return new SimpleResponse("访问的内容需要身份认证，请到登录页面认证！");
     }
+
 
 }

@@ -16,30 +16,29 @@ import org.springframework.web.servlet.view.AbstractView;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- *
  * @author: Mr.lyon
  * @createBy: 2018-05-19 22:18
  **/
 @Component("connect/status")
 public class AndyConnectionStatusView extends AbstractView {
-	
-	@Autowired
-	private ObjectMapper objectMapper;
 
-	@SuppressWarnings("unchecked")
-	@Override
-	protected void renderMergedOutputModel(Map<String, Object> model, HttpServletRequest request,
-			HttpServletResponse response) throws Exception {
-		
-		Map<String, List<Connection<?>>> connections = (Map<String, List<Connection<?>>>) model.get("connectionMap");
-		
-		Map<String, Boolean> result = new HashMap<>();
-		for (String key : connections.keySet()) {
-			result.put(key, CollectionUtils.isNotEmpty(connections.get(key)));
-		}
-		
-		response.setContentType("application/json;charset=UTF-8");
-		response.getWriter().write(objectMapper.writeValueAsString(result));
-	}
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    @SuppressWarnings("unchecked")
+    @Override
+    protected void renderMergedOutputModel(Map<String, Object> model, HttpServletRequest request,
+                                           HttpServletResponse response) throws Exception {
+
+        Map<String, List<Connection<?>>> connections = (Map<String, List<Connection<?>>>) model.get("connectionMap");
+
+        Map<String, Boolean> result = new HashMap<>();
+        for (String key : connections.keySet()) {
+            result.put(key, CollectionUtils.isNotEmpty(connections.get(key)));
+        }
+
+        response.setContentType("application/json;charset=UTF-8");
+        response.getWriter().write(objectMapper.writeValueAsString(result));
+    }
 
 }

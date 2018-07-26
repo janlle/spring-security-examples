@@ -6,6 +6,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+
 /**
  * @author: Mr.lyon
  * @createBy: 2018-04-07 12:23
@@ -16,8 +17,8 @@ public class SmsCodeAuthenticationProvider implements AuthenticationProvider {
 
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
-        SmsCodeAuthenticationToken token = (SmsCodeAuthenticationToken)authentication;
-        UserDetails user = userDetailsService.loadUserByUsername((String)authentication.getPrincipal());
+        SmsCodeAuthenticationToken token = (SmsCodeAuthenticationToken) authentication;
+        UserDetails user = userDetailsService.loadUserByUsername((String) authentication.getPrincipal());
         if (user == null) {
             throw new InternalAuthenticationServiceException("无法读取用户信息");
         }
