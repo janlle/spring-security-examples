@@ -1,4 +1,4 @@
-package com.andy.web.config;
+package com.andy.config;
 
 import java.util.ArrayList;
 import java.util.List;
