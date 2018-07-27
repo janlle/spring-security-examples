@@ -13,24 +13,7 @@
         <module.security.version>1.0.3.RELEASE</module.security.version>
     </properties>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>io.spring.platform</groupId>
-                <artifactId>platform-bom</artifactId>
-                <version>Brussels-SR5</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Dalston.SR4</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+
 
     <dependencies>
 
@@ -82,6 +65,7 @@
         <module>spring-security-auth-server</module>
         <module>spring-security-oauth</module>
         <module>spring-security-social</module>
+        <module>spring-security-test</module>
     </modules>
 
     <repositories>
