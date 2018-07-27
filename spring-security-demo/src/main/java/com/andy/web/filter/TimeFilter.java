@@ -31,7 +31,7 @@ public class TimeFilter implements Filter {
         long start = System.currentTimeMillis();
         chain.doFilter(request, response);
         long end = System.currentTimeMillis();
-        log.info("time :" + (end - start) + "毫秒！");
+        log.info("TimeFilter :" + (end - start) + "毫秒！");
     }
 
     @Override

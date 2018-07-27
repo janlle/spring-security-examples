@@ -12,7 +12,7 @@ import java.io.Serializable;
 @Data
 public class Result<T> implements Serializable {
 
-    private int code;
+    private Integer code;
 
     private String message;
 

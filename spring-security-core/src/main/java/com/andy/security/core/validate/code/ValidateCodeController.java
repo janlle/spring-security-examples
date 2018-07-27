@@ -19,7 +19,7 @@ import java.io.IOException;
  * @author: Mr.lyon
  * @createBy: 2018-02-19 19:54
  **/
-@RestController()
+@RestController
 public class ValidateCodeController {
 
     @Autowired
