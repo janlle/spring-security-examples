@@ -47,7 +47,7 @@ public class TimeInterceptor implements HandlerInterceptor {
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
                            ModelAndView modelAndView) throws Exception {
         long start = (long) request.getAttribute("start");
-        log.info("time :" + (System.currentTimeMillis() - start) + "毫秒！");
+//        log.info("TimeInterceptor :" + (System.currentTimeMillis() - start) + "毫秒！");
     }
 
     /**
@@ -63,7 +63,7 @@ public class TimeInterceptor implements HandlerInterceptor {
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
             throws Exception {
         long start = (long) request.getAttribute("start");
-        log.info("time :" + (System.currentTimeMillis() - start) + "毫秒！");
+        log.info("TimeInterceptor :" + (System.currentTimeMillis() - start) + "毫秒！");
     }
 
 }

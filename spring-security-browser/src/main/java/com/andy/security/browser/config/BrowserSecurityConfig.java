@@ -31,6 +31,9 @@ import javax.sql.DataSource;
 public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
+    private DataSource dataSource;
+
+    @Autowired
     private SecurityProperties securityProperties;
 
     @Autowired
@@ -38,9 +41,6 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private AuthenticationFailureHandler authFailureHandler;
-
-    @Autowired
-    private DataSource dataSource;
 
     @Autowired
     private UserDetailsService userDetailsService;
@@ -103,20 +103,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 //				.and()
 //				.csrf()
 //			.disable();
-        http.formLogin()
-                .successHandler(authSuccessHandler)
-                .failureHandler(authFailureHandler)
-                .loginPage("/andy-login.html")
-                .loginProcessingUrl("/authentication/form")
-                .and()
-                .authorizeRequests()
-                .antMatchers("/andy-login.html")
-                .permitAll()
-                .anyRequest()
-                .authenticated()
-                .and()
-                .csrf()
-                .disable();
+
     }
 
 }
