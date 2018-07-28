@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-security-app/spring-security-app.iml" filepath="$PROJECT_DIR$/spring-security-app/spring-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-auth-server/spring-security-auth-server.iml" filepath="$PROJECT_DIR$/spring-security-auth-server/spring-security-auth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-browser/spring-security-browser.iml" filepath="$PROJECT_DIR$/spring-security-browser/spring-security-browser.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-core/spring-security-core.iml" filepath="$PROJECT_DIR$/spring-security-core/spring-security-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-demo/spring-security-demo.iml" filepath="$PROJECT_DIR$/spring-security-demo/spring-security-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-security-examples.iml" filepath="$PROJECT_DIR$/spring-security-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-security-examples.iml" filepath="$PROJECT_DIR$/.idea/spring-security-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth/spring-security-oauth.iml" filepath="$PROJECT_DIR$/spring-security-oauth/spring-security-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-social/spring-security-social.iml" filepath="$PROJECT_DIR$/spring-security-social/spring-security-social.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-test/spring-security-test.iml" filepath="$PROJECT_DIR$/spring-security-test/spring-security-test.iml" />
     </modules>
   </component>
 </project>

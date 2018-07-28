@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2942143-7314-4249-bde4-fd8230234c52" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/springSecurity_app/target/" />
-    <ignored path="$PROJECT_DIR$/springSecurity_browser/target/" />
-    <ignored path="$PROJECT_DIR$/springSecurity_demo/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/springSecurity_core/target/" />
-    <ignored path="$PROJECT_DIR$/spring-security-core/target/" />
+    <list default="true" id="9b16e316-adc7-4d4e-9323-5d7d2bfc3bfd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/common/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-test/src/main/resources/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-test/src/main/resources/resources/login-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/config/TestSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/config/TestSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/service/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/service/UserDetailServiceImpl.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/spring-security-browser/target/" />
     <ignored path="$PROJECT_DIR$/spring-security-app/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-core/target/" />
     <ignored path="$PROJECT_DIR$/spring-security-demo/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-authServer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-test/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-social/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,104 +27,60 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/spring_security_examples$SpringSecurityTestApp.ic" NAME="SpringSecurityTestApp Coverage Results" MODIFIED="1532742306121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.andy.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Weixin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/Weixin.java">
+      <file leaf-file-name="login-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/resources/resources/login-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="192">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeixinImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/WeixinImpl.java">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="147">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeixinAccessGrant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinAccessGrant.java">
+      <file leaf-file-name="BrowserSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/config/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="390">
+              <caret line="88" column="57" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeixinAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinAdapter.java">
+      <file leaf-file-name="UserDetailServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/service/UserDetailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeixinConnectionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinConnectionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeixinOAuth2Template.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinOAuth2Template.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="119" column="7" lean-forward="true" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeixinServiceProvider.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinServiceProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeixinUserInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/WeixinUserInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndyConnectionStatusView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/AndyConnectionStatusView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocialConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/SocialConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="432">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -125,86 +90,113 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>datas</find>
-      <find>j</find>
-      <find>*/</find>
+      <find>/authentication/form</find>
+      <find>Author</find>
+      <find>@Author:</find>
+      <find>@Author: Mr.lyon</find>
+      <find>public static final</find>
+      <find>ruoLin</find>
+      <find>author</find>
+      <find>@Description:</find>
+      <find>@Author</find>
+      <find>create by</find>
+      <find>Mr.Mr.lyon</find>
+      <find>ruolin</find>
+      <find>@CreateBy</find>
+      <find>@CreateBy:</find>
+      <find>@createBy:</find>
+      <find>@author</find>
+      <find>createBy</find>
+      <find>Mr.@author:</find>
+      <find>·</find>
+      <find>andy.security.version</find>
+      <find>NOT NULL COMMENT</find>
+      <find>security\:\n  basic\:\n    enabled\:</find>
     </findStrings>
+    <replaceStrings>
+      <replace>@author:</replace>
+      <replace>@author</replace>
+      <replace>@createBy</replace>
+      <replace />
+      <replace>@createBy:</replace>
+      <replace>Mr.lyon</replace>
+      <replace>not null comment</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springSecurity_core/src/main/java/com/jja/security/core/social/weixin/connect/WeixinConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/springSecurity_core/src/main/java/com/jja/security/core/social/weixin/connect/WeixinAdapter.java" />
-        <option value="$PROJECT_DIR$/springSecurity_core/src/main/java/com/jja/security/core/social/weixin/connect/WeixinServiceProvider.java" />
-        <option value="$PROJECT_DIR$/springSecurity_core/src/main/java/com/jja/security/core/properties/SecurityProperties.java" />
-        <option value="$PROJECT_DIR$/springSecurity_core/src/main/java/com/jja/security/core/properties/WeixinProperties.java" />
-        <option value="$PROJECT_DIR$/springSecurity_demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springSecurity_core/src/main/java/com/jja/security/core/social/qq/connet/QQServiceProvider.java" />
-        <option value="$PROJECT_DIR$/springSecurity_app/pom.xml" />
-        <option value="$PROJECT_DIR$/springSecurity_browser/pom.xml" />
-        <option value="$PROJECT_DIR$/springSecurity_core/pom.xml" />
-        <option value="$PROJECT_DIR$/springSecurity_demo/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-security-browser/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-security-app/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-security-core/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-security-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/authentication/RuolinAuthenticationFailureHandler.java" />
-        <option value="$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/authentication/RuolinAuthentictionSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/config/BrowserSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/controller/BrowserSecurityController.java" />
-        <option value="$PROJECT_DIR$/spring-security-demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/SecurityProperties.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/WeixinProperties.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/LoginType.java" />
-        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/authentication/mobile/SmsCodeAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/authentication/mobile/SmsCodeAuthenticationToken.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ImageCode.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ImageCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/SmsCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ValidateCode.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ValidateCodeBeanConfig.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ValidateCodeFilter.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/entity/Users.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/exception/UserNotExistException.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/demo-login.html" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/index.html" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/SpringBootApp.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/config/WeixinAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/controller/ControllerExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/entity/User.java" />
         <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/common/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/controller/BrowserSecurityController.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/common/Result.java" />
         <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/filter/TimeFilter.java" />
         <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/interceptor/TimeInterceptor.java" />
-        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/SpringBootApp.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/aa.java" />
-        <option value="$PROJECT_DIR$/spring-security-demo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/a.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/Weixin.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/config/WeixinAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/ImoocConnectView.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/ImoocSpringSocialConfigurer.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/config/QQAuthConfig.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/AndySpringSocialConfigurer.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/AndyConnectView.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/AndyConnectionStatusView.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/SocialConfig.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/SecurityCoreConfig.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/WeixinUserInfo.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/WeixinImpl.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinAccessGrant.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinAdapter.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinOAuth2Template.java" />
-        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinServiceProvider.java" />
+        <option value="$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ValidateCodeController.java" />
+        <option value="$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/config/BrowserSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-core/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/SpringBootApp.java" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/TestController.java" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/spring-security-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-browser/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-app/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/SpringSecurityTestApp.java" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/resources/static/login-page.html" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/service/UserDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/common/Result.java" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/common/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/resources/resources/index.html" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/config/TestSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/resources/resources/login-page.html" />
+        <option value="$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/controller/LoginController.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -219,15 +211,36 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-security-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-security-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-security-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="330" />
-    <option name="y" value="38" />
-    <option name="width" value="1463" />
-    <option name="height" value="936" />
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1930" />
+    <option name="y" value="2" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -237,77 +250,526 @@
             <id />
           </State>
           <State>
-            <id>Properties Files</id>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>WrongPropertyKeyValueDelimiter</id>
+            <id>Duplicates</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springSecurity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="andy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-examples" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3264368" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://gitee.com/merryyou/security-oauth2.git" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jja.security" />
-      <recent name="com.jja.security.core.properties" />
-      <recent name="com.jja.security.core.validate.code" />
+      <recent name="com.andy.test.common" />
+      <recent name="com.andy.test.controller" />
+      <recent name="com.andy.test" />
+      <recent name="com.andy.security.core.properties" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\idea\springSecurity_parent\springSecurity_core\src\main\java\com\jja\security\core\properties" />
-      <recent name="D:\workspace\idea\springSecurity_parent\springSecurity_core\src\main\java\com\jja\security\core\social" />
+      <recent name="D:\workspace\idea-java\spring-security-examples\spring-security-test\src\main\resources\resources" />
+      <recent name="D:\workspace\idea-java\spring-security-examples\spring-security-test\src\main\resources\static" />
+      <recent name="D:\workspace\idea-java\spring-security-examples\spring-security-test\src\main\resources\resource" />
+      <recent name="D:\workspace\idea-java\spring-security-examples\spring-security-test\src\main\resources" />
+      <recent name="D:\workspace\idea-java\spring-security-examples\spring-security-demo\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -318,32 +780,16 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.2102981" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -353,42 +799,34 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
+      <module name="spring-security-authServer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springSecurity" />
-      <envs />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration name="SpringBootApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.andy.SpringBootApp" />
-      <module name="spring-security-demo" />
-      <envs />
+    <configuration name="SpringSecurityTestApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-security-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.andy.test.SpringSecurityTestApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -401,172 +839,307 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SpringBootOptions">
-    <option name="showAdditionalConfigNotification" value="false" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Andy\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2942143-7314-4249-bde4-fd8230234c52" name="Default" comment="" />
-      <created>1517215823107</created>
+      <changelist id="9b16e316-adc7-4d4e-9323-5d7d2bfc3bfd" name="Default" comment="" />
+      <created>1526779424297</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1517215823107</updated>
-      <workItem from="1517215828474" duration="1130000" />
-      <workItem from="1517277848814" duration="82000" />
-      <workItem from="1517883593319" duration="175000" />
-      <workItem from="1518569068231" duration="965000" />
-      <workItem from="1519022068297" duration="11276000" />
-      <workItem from="1519041080620" duration="3935000" />
-      <workItem from="1519358385024" duration="16000" />
-      <workItem from="1520668352054" duration="45000" />
-      <workItem from="1520671539135" duration="1880000" />
-      <workItem from="1520679038346" duration="7769000" />
-      <workItem from="1520763041277" duration="52000" />
-      <workItem from="1521974089335" duration="5118000" />
-      <workItem from="1522150166720" duration="730000" />
-      <workItem from="1522197810141" duration="604000" />
-      <workItem from="1522240324463" duration="5232000" />
-      <workItem from="1523021289035" duration="7646000" />
-      <workItem from="1523058903494" duration="24366000" />
-      <workItem from="1523148350560" duration="622000" />
-      <workItem from="1523153973268" duration="2406000" />
-      <workItem from="1523197453735" duration="74000" />
-      <workItem from="1523234702985" duration="604000" />
-      <workItem from="1525683652469" duration="738000" />
-      <workItem from="1525684744489" duration="1728000" />
-      <workItem from="1526734948948" duration="2716000" />
-      <workItem from="1526738587675" duration="2278000" />
+      <updated>1526779424297</updated>
+      <workItem from="1526779428113" duration="4350000" />
+      <workItem from="1526783973802" duration="822000" />
+      <workItem from="1526993490406" duration="89000" />
+      <workItem from="1527000260946" duration="872000" />
+      <workItem from="1527051142163" duration="2557000" />
+      <workItem from="1527079927608" duration="8591000" />
+      <workItem from="1527124233418" duration="229000" />
+      <workItem from="1527167091068" duration="3832000" />
+      <workItem from="1527516769286" duration="728000" />
+      <workItem from="1530801952845" duration="1231000" />
+      <workItem from="1530840113835" duration="224000" />
+      <workItem from="1532064902574" duration="415000" />
+      <workItem from="1532527680951" duration="2353000" />
+      <workItem from="1532567999133" duration="933000" />
+      <workItem from="1532613792283" duration="1477000" />
+      <workItem from="1532615486616" duration="6292000" />
+      <workItem from="1532699913532" duration="7556000" />
+      <workItem from="1532741064174" duration="2336000" />
     </task>
-    <task id="LOCAL-00001" summary="update some files">
-      <created>1526735585479</created>
+    <task id="LOCAL-00001" summary="update some file">
+      <created>1526779495075</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1526735585479</updated>
+      <updated>1526779495075</updated>
     </task>
-    <task id="LOCAL-00002" summary="update some files">
-      <created>1526736972488</created>
+    <task id="LOCAL-00002" summary="update some file">
+      <created>1526780578405</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1526736972488</updated>
+      <updated>1526780578405</updated>
     </task>
-    <task id="LOCAL-00003" summary="update some files">
-      <created>1526740512975</created>
+    <task id="LOCAL-00003" summary="update some file">
+      <created>1527167231375</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1526740512975</updated>
+      <updated>1527167231375</updated>
     </task>
-    <task id="LOCAL-00004" summary="update some files">
-      <created>1526740866152</created>
+    <task id="LOCAL-00004" summary="update some file">
+      <created>1527170913097</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1526740866152</updated>
+      <updated>1527170913097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update some file">
+      <created>1530802018578</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530802018578</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update some file">
+      <created>1530802073237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530802073237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update some file">
+      <created>1530802147870</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530802147870</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update some file">
+      <created>1530802322990</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530802322990</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update some file">
+      <created>1530840307358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1530840307358</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update some file">
+      <created>1532527862371</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532527862371</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update some file">
+      <created>1532527906783</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532527906783</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update some file">
+      <created>1532528631549</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532528631549</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update some author">
+      <created>1532568404676</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532568404677</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update some author">
+      <created>1532568795736</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532568795736</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update some author">
+      <created>1532568902224</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1532568902224</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update some code">
+      <created>1532615991485</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1532615991485</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update some code">
+      <created>1532616336082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1532616336082</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update some code">
+      <created>1532617401447</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1532617401447</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update some code">
+      <created>1532618141291</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1532618141291</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update some code">
+      <created>1532619295961</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1532619295961</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update some code">
+      <created>1532620039908</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1532620039908</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update some code">
+      <created>1532621011279</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1532621011279</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update some code">
+      <created>1532621202418</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1532621202418</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update some code">
+      <created>1532702911619</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1532702911619</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update some code">
+      <created>1532703567672</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1532703567672</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update some code">
+      <created>1532741179545</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1532741179545</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82187000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="44887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1930" y="2" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27982953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26048285" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29211086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1716418" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3725" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28826815" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3293348" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.2196162" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32929438" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2424581" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.28244275" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.49946696" weight="0.2977099" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42857143" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35550708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2457356" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18603411" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1716418" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3725" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37362638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34887218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.28244275" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42857143" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35550708" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2457356" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.2196162" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32929438" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2424581" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.25845146" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,421 +1149,425 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update some files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update some files" />
+    <MESSAGE value="update some file" />
+    <MESSAGE value="update some author" />
+    <MESSAGE value="update some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update some code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/controller/LoginController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/qq/connet/QQAdapter.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/support/SimpleResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/qq/api/QQUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="119" column="29" lean-forward="false" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/qq/api/QQImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-app/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/authentication/AuthSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-browser/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/authentication/RuolinAuthenticationFailureHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/authentication/RuolinAuthentictionSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="39" column="65" lean-forward="false" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/config/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="86" column="89" lean-forward="false" selection-start-line="86" selection-start-column="89" selection-end-line="86" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/controller/BrowserSecurityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="42" column="68" lean-forward="false" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/resources/logback-spring.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/SecurityProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/ValidateCodeProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/SocialProperties.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/SmsCodeProperties.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/QQProperties.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/SpringBootApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/filter/TimeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/interceptor/TimeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/SecurityCoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/authentication/mobile/SmsCodeAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/LoginType.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/authentication/mobile/SmsCodeAuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="384">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/authentication/mobile/SmsCodeAuthenticationToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/exception/UserNotExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="3">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/controller/ControllerExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/SpringBootApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/aa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/filter/TimeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/interceptor/TimeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/config/WeixinAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="4" />
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/BrowserProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/ImageCodeProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/properties/WeixinProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/config/QQAuthConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/SecurityCoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ValidateCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/authentication/mobile/SmsCodeAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/AndyConnectView.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ImageCodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/AndySpringSocialConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/SocialConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/AndyConnectionStatusView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/Weixin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/WeixinUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/api/WeixinImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinAccessGrant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinAdapter.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/SmsCodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinConnectionFactory.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ImageCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/ValidateCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/sms/DefaultSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/validate/code/sms/SmsCodeSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/resources/resources/andy-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/controller/BrowserSecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-security/1.1.4.RELEASE/spring-social-security-1.1.4.RELEASE-sources.jar!/org/springframework/social/security/SpringSocialConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-browser/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinOAuth2Template.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="119" column="7" lean-forward="true" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="312">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-core/src/main/java/com/andy/security/core/social/weixin/connect/WeixinServiceProvider.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-auth-server/src/main/java/com/andy/auth/config/OauthServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="576">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-auth-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/SpringSecurityTestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1925">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-888">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/crypto/password/PasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/resources/static/login-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/resources/static/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/common/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/service/UserDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/resources/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/common/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/andy/common/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/common/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/config/TestSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-browser/src/main/java/com/andy/security/browser/config/BrowserSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="88" column="57" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/resources/resources/login-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-test/src/main/java/com/andy/test/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3264368" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1026,11 +1603,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3264368" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1038,11 +1615,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-security-app</last-edited>
+          <last-edited>spring-security-test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3264368" />
+                <option value="0.2" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1051,7 +1628,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1063,7 +1640,18 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
