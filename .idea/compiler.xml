@@ -7,26 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-security-app" />
+        <module name="spring-security-auth-server" />
+        <module name="spring-security-authServer" />
         <module name="spring-security-browser" />
         <module name="spring-security-core" />
         <module name="spring-security-demo" />
-        <module name="springSecurity_app" />
-        <module name="springSecurity_browser" />
-        <module name="springSecurity_core" />
-        <module name="springSecurity_demo" />
+        <module name="spring-security-oauth" />
+        <module name="spring-security-social" />
+        <module name="spring-security-test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="spring-security-app" target="1.8" />
+      <module name="spring-security-auth-server" target="1.8" />
+      <module name="spring-security-authServer" target="1.8" />
       <module name="spring-security-browser" target="1.8" />
       <module name="spring-security-core" target="1.8" />
       <module name="spring-security-demo" target="1.8" />
       <module name="spring-security-examples" target="1.8" />
-      <module name="springSecurity" target="1.8" />
-      <module name="springSecurity_app" target="1.8" />
-      <module name="springSecurity_browser" target="1.8" />
-      <module name="springSecurity_core" target="1.8" />
-      <module name="springSecurity_demo" target="1.8" />
+      <module name="spring-security-oauth" target="1.8" />
+      <module name="spring-security-social" target="1.8" />
+      <module name="spring-security-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

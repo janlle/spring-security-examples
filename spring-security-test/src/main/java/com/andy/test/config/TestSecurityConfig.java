@@ -6,6 +6,10 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.DefaultRedirectStrategy;
+import org.springframework.security.web.RedirectStrategy;
+import org.springframework.security.web.savedrequest.HttpSessionRequestCache;
+import org.springframework.security.web.savedrequest.RequestCache;
 
 /**
  * @author: lyon
@@ -20,9 +24,14 @@ public class TestSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.formLogin()
 //        http.httpBasic()
-                .loginPage("/")
+//                .loginPage("/login-page.html")
+//                .loginProcessingUrl("/authentication/form")
+                .loginPage("/authentication/request")
+				.loginProcessingUrl("/authentication/form")
                 .and()
                 .authorizeRequests()
+                .antMatchers("/login-page.html", "/authentication/request")
+                .permitAll()
                 .anyRequest()
                 .authenticated();
     }
@@ -31,4 +40,15 @@ public class TestSecurityConfig extends WebSecurityConfigurerAdapter {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
+    @Bean
+    public RequestCache requestCache() {
+        return new HttpSessionRequestCache();
+    }
+
+    @Bean
+    public RedirectStrategy redirectStrategy() {
+        return new DefaultRedirectStrategy();
+    }
+
 }
