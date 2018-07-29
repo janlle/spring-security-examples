@@ -1,4 +1,4 @@
-package com.andy.security.core.validate.code;
+package com.andy.validate.code;
 
 import com.andy.security.core.property.SecurityProperties;
 import org.apache.commons.lang.StringUtils;
