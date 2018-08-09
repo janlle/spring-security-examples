@@ -7,8 +7,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 /**
  * 认证服务器
  *
- * @author: Mr.lyon
- * @createBy: 2018-05-05 23:04
+ * @author: lyon
+ * @since: 2018-05-05 23:04
  **/
 @SpringBootApplication
 @EnableAuthorizationServer

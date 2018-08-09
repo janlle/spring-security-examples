@@ -18,8 +18,8 @@ import com.andy.security.core.property.LoginType;
 import com.andy.security.core.property.SecurityProperties;
 
 /**
- * @author: Mr.lyon
- * @createBy: 2017-11-19 2:56:11
+ * @author: lyon
+ * @since: 2017-11-19 2:56:11
  **/
 @Slf4j
 @Component("authSuccessHandler")

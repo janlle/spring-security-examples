@@ -15,8 +15,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  *  Weixin API调用模板， scope为Request的Spring bean, 根据当前用户的accessToken创建。
- * @author: Mr.lyon
- * @createBy: 2018-05-19 22:18
+ * @author: lyon
+ * @since: 2018-05-19 22:18
  **/
 @Slf4j
 public class WeixinImpl extends AbstractOAuth2ApiBinding implements Weixin {

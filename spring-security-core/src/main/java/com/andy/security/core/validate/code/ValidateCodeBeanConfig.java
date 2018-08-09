@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author: Mr.lyon
- * @createBy: 2018-04-07 09:24
+ * @author: lyon
+ * @since: 2018-04-07 09:24
  **/
 @Configuration
 public class ValidateCodeBeanConfig {

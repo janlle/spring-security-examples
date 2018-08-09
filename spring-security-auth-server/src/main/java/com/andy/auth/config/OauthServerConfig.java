@@ -18,8 +18,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *
- * @author: Mr.lyon
- * @createBy: 2018-05-23 22:11
+ * @author: lyon
+ * @since: 2018-05-23 22:11
  **/
 @Configuration
 public class OauthServerConfig extends AuthorizationServerConfigurerAdapter {

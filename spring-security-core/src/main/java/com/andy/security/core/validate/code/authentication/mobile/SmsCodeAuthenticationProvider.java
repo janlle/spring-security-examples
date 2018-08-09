@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 /**
- * @author: Mr.lyon
- * @createBy: 2018-04-07 12:23
+ * @author: lyon
+ * @since: 2018-04-07 12:23
  **/
 public class SmsCodeAuthenticationProvider implements AuthenticationProvider {
 
