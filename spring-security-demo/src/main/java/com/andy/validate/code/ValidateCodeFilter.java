@@ -1,6 +1,7 @@
 package com.andy.validate.code;
 
 import com.andy.security.core.property.SecurityProperties;
+import com.andy.security.core.validate.code.ValidateCodeException;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,7 @@ import java.util.Set;
 
 /**
  * @author: lyon
- * @since: 2018-03-25 18:49
+ * @since: 2018-03-25
  **/
 public class ValidateCodeFilter extends OncePerRequestFilter implements InitializingBean {
 
