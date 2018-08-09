@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author: Mr.lyon
- * @createBy: 2017-11-19 3:12:07
+ * @author: lyon
+ * @since: 2017-11-19 3:12:07
  **/
 @Slf4j
 @Component("authFailureHandler")

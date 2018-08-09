@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import com.andy.security.core.property.SecurityProperties;
 
 /**
- * @author: Mr.lyon
- * @createBy: 2018-02-19 22:18
+ * @author: lyon
+ * @since: 2018-02-19
  **/
 @Configuration
 @EnableConfigurationProperties(SecurityProperties.class)

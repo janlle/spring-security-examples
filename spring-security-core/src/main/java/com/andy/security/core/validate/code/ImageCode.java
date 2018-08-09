@@ -6,8 +6,8 @@ import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 
 /**
- * @author: Mr.lyon
- * @createBy: 2018-02-19 18:02
+ * @author: lyon
+ * @since: 2018-02-19 18:02
  **/
 @Data
 public class ImageCode extends ValidateCode {

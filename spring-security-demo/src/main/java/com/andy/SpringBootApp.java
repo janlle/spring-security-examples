@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author: Mr.lyon
- * @createBy 2017-11-5 2:14:58
+ * @author: lyon
+ * @since 2017-11-5 2:14:58
  */
 @EnableSwagger2
 @SpringBootApplication

@@ -4,8 +4,8 @@ import com.andy.security.core.social.qq.api.QQ;
 import org.springframework.social.connect.support.OAuth2ConnectionFactory;
 
 /**
- * @author: Mr.lyon
- * @createBy: 2018-03-10 20:11
+ * @author: lyon
+ * @since: 2018-03-10 20:11
  **/
 public class QQConnectionFactory extends OAuth2ConnectionFactory<QQ> {
 

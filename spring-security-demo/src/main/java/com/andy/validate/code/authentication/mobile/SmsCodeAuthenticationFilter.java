@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author: Mr.lyon
- * @createBy: 2018-04-07 12:13
+ * @author: lyon
+ * @since: 2018-04-07 12:13
  **/
 public class SmsCodeAuthenticationFilter extends AbstractAuthenticationProcessingFilter {
 
