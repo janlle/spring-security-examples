@@ -10,7 +10,7 @@ import java.util.Random;
 
 /**
  * @author: lyon
- * @since: 2018-04-07 09:19
+ * @since: 2018-04-07
  **/
 public class ImageCodeGenerator implements ValidateCodeGenerator {
 

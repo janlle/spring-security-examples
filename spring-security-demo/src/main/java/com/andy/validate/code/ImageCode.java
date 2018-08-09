@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 /**
  * @author: lyon
- * @since: 2018-02-19 18:02
+ * @since: 2018-02-19
  **/
 @Data
 public class ImageCode extends ValidateCode {

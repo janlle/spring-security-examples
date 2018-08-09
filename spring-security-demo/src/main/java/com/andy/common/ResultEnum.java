@@ -1,7 +1,7 @@
 package com.andy.common;
 
 /**
- * @author: Mr.ruoLin
+ * @author: lyon
  * @since: 2018-01-03
  **/
 public enum ResultEnum {
