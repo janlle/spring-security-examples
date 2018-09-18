@@ -7,7 +7,7 @@ import org.springframework.security.core.SpringSecurityCoreVersion;
 import java.util.Collection;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2018-04-07 12:07
  **/
 public class SmsCodeAuthenticationToken extends AbstractAuthenticationToken {

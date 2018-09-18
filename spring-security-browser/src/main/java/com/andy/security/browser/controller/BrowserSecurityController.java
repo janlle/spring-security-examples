@@ -20,7 +20,7 @@ import com.andy.security.browser.support.SimpleResponse;
 import com.andy.security.core.property.SecurityProperties;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2017-11-19
  */
 @Slf4j

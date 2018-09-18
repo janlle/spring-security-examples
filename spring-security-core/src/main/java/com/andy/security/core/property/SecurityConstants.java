@@ -1,7 +1,7 @@
 package com.andy.security.core.property;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2018-04-07 14:19
  **/
 public interface SecurityConstants {

@@ -1,7 +1,7 @@
 package com.andy.exception;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2017-11-6
  */
 public class UserNotExistException extends RuntimeException {

@@ -12,7 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 /**
- * @author lyon
+ * @author Leone
  * @cerateBy: 2018-02-27
  **/
 @Component

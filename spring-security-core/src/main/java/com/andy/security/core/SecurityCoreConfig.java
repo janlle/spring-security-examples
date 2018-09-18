@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import com.andy.security.core.property.SecurityProperties;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2018-02-19
  **/
 @Configuration

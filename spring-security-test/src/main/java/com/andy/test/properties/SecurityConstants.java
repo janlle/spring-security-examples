@@ -1,7 +1,7 @@
 package com.andy.test.properties;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2018-04-07 14:19
  **/
 public interface SecurityConstants {
