@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author Leone
- * @since 2018-04-07 12:13
+ * @since 2018-04-07
  **/
 public class SmsCodeAuthenticationFilter extends AbstractAuthenticationProcessingFilter {
 
