@@ -9,7 +9,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 
 /**
  * @author: lyon
- * @since: 2018-04-07 12:23
+ * @since 2018-04-07 12:23
  **/
 public class SmsCodeAuthenticationProvider implements AuthenticationProvider {
 

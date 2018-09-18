@@ -20,7 +20,7 @@ import java.io.IOException;
 
 /**
  * @author: lyon
- * @since: 2017-11-19 3:12:07
+ * @since 2017-11-19 3:12:07
  **/
 @Slf4j
 @Component("authFailureHandler")

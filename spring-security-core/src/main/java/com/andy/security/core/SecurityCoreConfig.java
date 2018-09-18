@@ -7,7 +7,7 @@ import com.andy.security.core.property.SecurityProperties;
 
 /**
  * @author: lyon
- * @since: 2018-02-19
+ * @since 2018-02-19
  **/
 @Configuration
 @EnableConfigurationProperties(SecurityProperties.class)

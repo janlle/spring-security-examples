@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @author: lyon
- * @since: 2018-04-07 07:59
+ * @since 2018-04-07 07:59
  **/
 @Data
 public class ValidateCodeProperties {
