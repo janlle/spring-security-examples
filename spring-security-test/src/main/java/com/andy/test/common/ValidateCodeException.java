@@ -3,7 +3,7 @@ package com.andy.test.common;
 import org.springframework.security.core.AuthenticationException;
 
 /**
- * @author: lyon
+ * @author lyon
  * @since 2018-03-25 18:59
  **/
 public class ValidateCodeException extends AuthenticationException {

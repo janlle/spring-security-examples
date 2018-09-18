@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *
- * @author: lyon
+ * @author lyon
  * @since 2018-05-23 22:11
  **/
 @Configuration

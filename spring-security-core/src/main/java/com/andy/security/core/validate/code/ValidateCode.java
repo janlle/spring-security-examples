@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 /**
  * 短信验证码实体
  *
- * @author: lyon
+ * @author lyon
  * @since 2018-04-7 18:02
  **/
 @Data

@@ -18,7 +18,7 @@ import org.springframework.security.web.savedrequest.RequestCache;
 import javax.annotation.Resource;
 
 /**
- * @author: lyon
+ * @author lyon
  * @cerateBy: 2018-07-27
  **/
 @Configuration
