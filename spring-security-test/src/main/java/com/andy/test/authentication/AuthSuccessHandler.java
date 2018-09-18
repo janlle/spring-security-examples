@@ -18,7 +18,7 @@ import java.io.IOException;
 
 /**
  * @author: lyon
- * @since: 2017-11-19 2:56:11
+ * @since 2017-11-19 2:56:11
  **/
 @Slf4j
 @Component("authSuccessHandler")

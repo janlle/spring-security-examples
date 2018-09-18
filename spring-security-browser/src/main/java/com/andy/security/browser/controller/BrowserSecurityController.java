@@ -21,7 +21,7 @@ import com.andy.security.core.property.SecurityProperties;
 
 /**
  * @author: lyon
- * @since: 2017-11-19
+ * @since 2017-11-19
  */
 @Slf4j
 @RestController

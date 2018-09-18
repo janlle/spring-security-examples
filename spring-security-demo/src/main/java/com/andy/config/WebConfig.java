@@ -15,7 +15,7 @@ import com.andy.web.interceptor.TimeInterceptor;
 
 /**
  * @author: lyon
- * @since: 2018-01-26 23:44
+ * @since 2018-01-26 23:44
  **/
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {

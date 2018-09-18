@@ -2,6 +2,12 @@ package com.andy.security.core.property;
 
 import lombok.Data;
 
+/**
+ * <p>
+ *
+ * @author Leone
+ * @since 2018-09-18
+ **/
 @Data
 public class BrowserProperties {
 

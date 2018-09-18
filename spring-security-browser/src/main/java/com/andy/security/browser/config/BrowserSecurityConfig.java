@@ -24,7 +24,7 @@ import javax.sql.DataSource;
 
 /**
  * @author: lyon
- * @since: 2017-11-12 8:36
+ * @since 2017-11-12 8:36
  **/
 @Slf4j
 @Configuration

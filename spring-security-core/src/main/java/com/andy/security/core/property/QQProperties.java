@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.social.SocialProperties;
 
 /**
  * @author: lyon
- * @since: 2018-04-07 14:19
+ * @since 2018-04-07 14:19
  **/
 @Data
 public class QQProperties extends SocialProperties {
