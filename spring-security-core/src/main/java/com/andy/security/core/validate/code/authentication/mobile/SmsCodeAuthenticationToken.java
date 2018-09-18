@@ -8,7 +8,7 @@ import java.util.Collection;
 
 /**
  * @author Leone
- * @since 2018-04-07 12:07
+ * @since 2018-04-07
  **/
 public class SmsCodeAuthenticationToken extends AbstractAuthenticationToken {
 
