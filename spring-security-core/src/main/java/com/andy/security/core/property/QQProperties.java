@@ -4,7 +4,7 @@ import lombok.Data;
 import org.springframework.boot.autoconfigure.social.SocialProperties;
 
 /**
- * @author: lyon
+ * @author lyon
  * @since 2018-04-07 14:19
  **/
 @Data

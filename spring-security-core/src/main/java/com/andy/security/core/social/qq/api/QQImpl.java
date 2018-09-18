@@ -7,7 +7,7 @@ import org.springframework.social.oauth2.AbstractOAuth2ApiBinding;
 import org.springframework.social.oauth2.TokenStrategy;
 
 /**
- * @author: lyon
+ * @author lyon
  * @since 2018-03-10 18:55
  **/
 @Slf4j

@@ -7,7 +7,7 @@ import org.springframework.social.connect.ConnectionValues;
 import org.springframework.social.connect.UserProfile;
 
 /**
- * @author: lyon
+ * @author lyon
  * @since 2018-03-10 19:59
  **/
 public class QQAdapter implements ApiAdapter<QQ> {

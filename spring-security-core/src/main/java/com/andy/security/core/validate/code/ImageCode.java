@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 
 /**
- * @author: lyon
+ * @author lyon
  * @since 2018-02-19 18:02
  **/
 @Data

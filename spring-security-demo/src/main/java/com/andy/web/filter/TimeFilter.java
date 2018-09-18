@@ -13,7 +13,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
 /**
- * @author: lyon
+ * @author lyon
  * @since 2017-11-6 4:47:04
  */
 @Slf4j

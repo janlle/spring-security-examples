@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.AbstractView;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @author: lyon
+ * @author lyon
  * @since 2018-05-19 22:18
  **/
 @Component("connect/status")

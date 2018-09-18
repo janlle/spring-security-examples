@@ -23,7 +23,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author: lyon
+ * @author lyon
  * @since 2018-03-25
  **/
 public class ValidateCodeFilter extends OncePerRequestFilter implements InitializingBean {
