@@ -23,7 +23,7 @@ import org.springframework.social.security.SpringSocialConfigurer;
 import javax.sql.DataSource;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2017-11-12 8:36
  **/
 @Slf4j

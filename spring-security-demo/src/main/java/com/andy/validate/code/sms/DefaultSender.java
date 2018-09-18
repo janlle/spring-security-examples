@@ -1,7 +1,7 @@
 package com.andy.validate.code.sms;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2018-04-07 10:19
  **/
 public class DefaultSender implements SmsCodeSender {

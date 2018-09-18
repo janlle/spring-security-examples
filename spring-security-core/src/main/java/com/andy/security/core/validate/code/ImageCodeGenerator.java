@@ -9,7 +9,7 @@ import java.awt.image.BufferedImage;
 import java.util.Random;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2018-04-07 09:19
  **/
 public class ImageCodeGenerator implements ValidateCodeGenerator {

@@ -11,7 +11,7 @@ import org.springframework.social.connect.ConnectionFactory;
 
 /**
  * 微信API调用接口
- * @author lyon
+ * @author Leone
  * @since 2018-05-19 22:18
  **/
 @Configuration

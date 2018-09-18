@@ -18,7 +18,7 @@ import com.andy.security.core.property.LoginType;
 import com.andy.security.core.property.SecurityProperties;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2017-11-19 2:56:11
  **/
 @Slf4j

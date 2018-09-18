@@ -1,7 +1,7 @@
 package com.andy.test.common;
 
 /**
- * @author lyon
+ * @author Leone
  * @since 2018-01-03
  **/
 public enum ResultEnum {
