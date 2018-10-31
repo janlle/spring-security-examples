@@ -1,3 +1,6 @@
+server:
+  port: 8080
+  context-path: /auth_server
 security:
   user:
     password: admin

@@ -1,4 +1,4 @@
-package com.andy.auth.controller;
+package com.andy.security.auth.server.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  *
  * @author Leone
- * @since 2018-05-23 22:35
+ * @since 2018-05-23
  **/
 @Slf4j
 @RestController

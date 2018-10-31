@@ -1,14 +1,14 @@
-package com.andy.auth;
+package com.andy.security.auth.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 
 /**
- * 认证服务器
+ * <p> 认证服务器
  *
  * @author Leone
- * @since 2018-05-05 23:04
+ * @since 2018-05-05
  **/
 @SpringBootApplication
 @EnableAuthorizationServer

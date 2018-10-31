@@ -1,4 +1,4 @@
-package com.andy.auth.config;
+package com.andy.security.auth.server.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -19,10 +19,10 @@ import java.util.concurrent.TimeUnit;
 /**
  *
  * @author Leone
- * @since 2018-05-23 22:11
+ * @since 2018-05-23
  **/
 @Configuration
-public class OauthServerConfig extends AuthorizationServerConfigurerAdapter {
+public class OAuthServerConfig extends AuthorizationServerConfigurerAdapter {
 
     @Autowired
     private DataSource dataSource;
