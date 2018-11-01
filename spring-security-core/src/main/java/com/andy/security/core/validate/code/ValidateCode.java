@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
  * 短信验证码实体
  *
  * @author Leone
- * @since 2018-04-7 18:02
+ * @since 2018-04-7
  **/
 @Data
 public class ValidateCode {

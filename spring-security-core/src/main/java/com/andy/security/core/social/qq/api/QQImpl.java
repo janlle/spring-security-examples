@@ -8,7 +8,7 @@ import org.springframework.social.oauth2.TokenStrategy;
 
 /**
  * @author Leone
- * @since 2018-03-10 18:55
+ * @since 2018-03-10
  **/
 @Slf4j
 public class QQImpl extends AbstractOAuth2ApiBinding implements QQ {

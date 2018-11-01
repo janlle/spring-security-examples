@@ -23,7 +23,7 @@ import java.util.Set;
 
 /**
  * @author Leone
- * @since 2018-03-25 18:49
+ * @since 2018-03-25
  **/
 public class ValidateCodeFilter extends OncePerRequestFilter implements InitializingBean {
 

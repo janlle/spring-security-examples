@@ -13,6 +13,6 @@ public class SocialProperties {
 
     private QQProperties qq = new QQProperties();
 
-    private WeixinProperties wx = new WeixinProperties();
+    private WxProperties wx = new WxProperties();
 
 }

@@ -1,7 +1,7 @@
 package com.andy.security.core.social.weixin.config;
 
 import com.andy.security.core.property.SecurityProperties;
-import com.andy.security.core.property.WeixinProperties;
+import com.andy.security.core.property.WxProperties;
 import com.andy.security.core.social.AndyConnectView;
 import com.andy.security.core.social.weixin.connect.WeixinConnectionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ import org.springframework.web.servlet.View;
  * @since 2018-05-19 22:18
  **/
 @Configuration
-@ConditionalOnProperty(prefix = "andy.security.social.weixin", name = "app-id")
+@ConditionalOnProperty(prefix = "andy.security.social.weixin", name = "resource-id")
 public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
 
     @Autowired
@@ -28,7 +28,7 @@ public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
 
     @Override
     protected ConnectionFactory<?> createConnectionFactory() {
-        WeixinProperties weixinConfig = securityProperties.getSocial().getWx();
+        WxProperties weixinConfig = securityProperties.getSocial().getWx();
         return new WeixinConnectionFactory(weixinConfig.getProviderId(), weixinConfig.getAppId(),
                 weixinConfig.getAppSecret());
     }

@@ -4,7 +4,7 @@ import org.springframework.security.core.AuthenticationException;
 
 /**
  * @author Leone
- * @since 2018-03-25 18:59
+ * @since 2018-03-25
  **/
 public class ValidateCodeException extends AuthenticationException {
 

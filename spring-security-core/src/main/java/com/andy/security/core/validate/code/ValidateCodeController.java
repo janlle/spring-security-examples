@@ -17,7 +17,7 @@ import java.io.IOException;
 
 /**
  * @author Leone
- * @since 2018-02-19 19:54
+ * @since 2018-02-19
  **/
 @RestController
 public class ValidateCodeController {

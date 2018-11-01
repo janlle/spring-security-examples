@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author Leone
- * @since 2018-04-07 09:24
+ * @since 2018-04-07
  **/
 @Configuration
 public class ValidateCodeBeanConfig {

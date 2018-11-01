@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @author Leone
- * @since 2018-04-07 07:58
+ * @since 2018-04-07
  **/
 @Data
 public class SmsCodeProperties {
