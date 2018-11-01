@@ -16,7 +16,7 @@ import javax.sql.DataSource;
 
 /**
  * @author Leone
- * @since 2018-05-19 22:18
+ * @since 2018-05-19
  **/
 @Configuration
 @EnableSocial

@@ -1,16 +1,15 @@
 package com.andy.security.core.social;
 
-import java.util.Map;
+import org.springframework.web.servlet.view.AbstractView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.springframework.web.servlet.view.AbstractView;
+import java.util.Map;
 
 
 /**
  * @author Leone
- * @since 2018-05-19 22:18
+ * @since 2018-05-19
  **/
 public class AndyConnectView extends AbstractView {
 

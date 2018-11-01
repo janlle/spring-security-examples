@@ -5,7 +5,7 @@ import org.springframework.social.security.SpringSocialConfigurer;
 
 /**
  * @author Leone
- * @since 2018-05-19 22:18
+ * @since 2018-05-19
  **/
 public class AndySpringSocialConfigurer extends SpringSocialConfigurer {
 

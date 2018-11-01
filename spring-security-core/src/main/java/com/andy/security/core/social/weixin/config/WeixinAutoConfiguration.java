@@ -17,7 +17,7 @@ import org.springframework.web.servlet.View;
  * 微信登录配置
  *
  * @author Leone
- * @since 2018-05-19 22:18
+ * @since 2018-05-19
  **/
 @Configuration
 @ConditionalOnProperty(prefix = "andy.security.social.weixin", name = "resource-id")
