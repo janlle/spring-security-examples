@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.andy.security</groupId>
         <artifactId>spring-security-examples</artifactId>
-        <version>1.0.3.RELEASE</version>
+        <version>1.1.0.RELEASE</version>
     </parent>
 
     <dependencyManagement>
@@ -31,7 +31,7 @@
         <dependency>
             <groupId>com.andy.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>${module.security.version}</version>
+            <version>1.1.0.RELEASE</version>
         </dependency>
 
         <dependency>

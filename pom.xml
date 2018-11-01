@@ -7,13 +7,11 @@
 
     <groupId>com.andy.security</groupId>
     <artifactId>spring-security-examples</artifactId>
-    <version>1.0.3.RELEASE</version>
+    <version>1.1.0.RELEASE</version>
 
     <properties>
-        <module.security.version>1.0.3.RELEASE</module.security.version>
+        <module.security.version>1.0.5.RELEASE</module.security.version>
     </properties>
-
-
 
     <dependencies>
 
@@ -58,12 +56,11 @@
     </build>
 
     <modules>
-        <module>spring-security-app</module>
+        <module>spring-security-resource-server</module>
         <module>spring-security-browser</module>
         <module>spring-security-core</module>
         <module>spring-security-demo</module>
         <module>spring-security-auth-server</module>
-        <module>spring-security-oauth</module>
         <module>spring-security-social</module>
         <module>spring-security-test</module>
     </modules>
