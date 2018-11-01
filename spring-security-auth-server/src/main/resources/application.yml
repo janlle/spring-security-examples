@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 server:
   port: 8080
   context-path: /auth_server
-=======
->>>>>>> 057de6d437c14453e775d7e5194f3525503c2f53
+
 security:
   user:
     password: admin
@@ -15,8 +13,5 @@ spring:
     url: jdbc:mysql://localhost:3306/boot?useSSL=false
     password: root
     username: root
-<<<<<<< HEAD
     driver-class-name: com.mysql.jdbc.Driver
-=======
-    driver-class-name: com.mysql.jdbc.Driver
->>>>>>> 057de6d437c14453e775d7e5194f3525503c2f53
+
