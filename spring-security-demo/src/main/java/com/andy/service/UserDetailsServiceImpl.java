@@ -31,7 +31,7 @@ public class UserDetailsServiceImpl implements UserDetailsService, SocialUserDet
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         //真实项目中是数据库中的密码，目前定义为abcd
-        String password = passwordEncoder.encode("abcd");
+        String password = passwordEncoder.encode("admin");
         log.info("表单登录名是:{}", username);
         return buildUser(username);
     }
@@ -44,7 +44,7 @@ public class UserDetailsServiceImpl implements UserDetailsService, SocialUserDet
 
     private SocialUserDetails buildUser(String userId) {
         //真实项目中是数据库中的密码，目前定义为abcd
-        String password = passwordEncoder.encode("abcd");
+        String password = passwordEncoder.encode("admin");
         log.info("数据库的密码是:{}", password);
         return new SocialUser(userId, password, true, true, true, true,
                 AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));

@@ -7,7 +7,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author Leone
- * @since 2017-11-5
+ * @since 2017-11-05
  */
 @EnableSwagger2
 @SpringBootApplication

@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.andy.security</groupId>
         <artifactId>spring-security-examples</artifactId>
-        <version>1.0.3.RELEASE</version>
+        <version>1.1.0.RELEASE</version>
     </parent>
 
     <dependencyManagement>
@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.andy.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>${module.security.version}</version>
+            <version>1.1.0.RELEASE</version>
         </dependency>
 
         <dependency>
@@ -41,10 +41,22 @@
             <version>1.5.7.RELEASE</version>
         </dependency>
 
+        <!--<dependency>-->
+            <!--<groupId>com.andy.security</groupId>-->
+            <!--<artifactId>spring-security-browser</artifactId>-->
+            <!--<version>${module.security.version}</version>-->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>com.andy.security</groupId>
-            <artifactId>spring-security-browser</artifactId>
-            <version>${module.security.version}</version>
+            <artifactId>spring-security-resource-server</artifactId>
+            <version>1.1.0.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.andy.security</groupId>
+            <artifactId>spring-security-auth-server</artifactId>
+            <version>1.1.0.RELEASE</version>
         </dependency>
 
         <dependency>
@@ -55,7 +67,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>1.5.7.RELEASE</version>
         </dependency>
 
         <dependency>

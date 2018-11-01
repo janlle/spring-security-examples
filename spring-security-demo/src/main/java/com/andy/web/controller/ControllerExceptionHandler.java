@@ -9,8 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
+ * <p> 全局异常处理器
+ *
  * @author Leone
- * @since 2017-11-5 2:14:58
+ * @since 2017-11-05
  */
 @ControllerAdvice
 public class ControllerExceptionHandler {

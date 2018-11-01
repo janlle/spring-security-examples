@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  * @author Leone
- * @since 2017-11-5 2:14:58
+ * @since 2017-11-05
  */
 @Slf4j
 @RestController
@@ -17,8 +17,7 @@ public class UserController {
 
     @GetMapping("/user")
     public User getUser() {
-        User user = new User("james", "james", "james", "james@gmail.com", "he");
-        return user;
+        return new User("james", "james", "james", 23, new Date(), false);
     }
 
 }
