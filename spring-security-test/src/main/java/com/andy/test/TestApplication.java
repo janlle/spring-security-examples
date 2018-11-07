@@ -6,12 +6,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author Leone
- * @since 2017-12-5
+ * @since 2017-12-05
  */
 @EnableSwagger2
 @SpringBootApplication
-public class SpringSecurityTestApp {
+public class TestApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringSecurityTestApp.class, args);
+        SpringApplication.run(TestApplication.class, args);
     }
 }

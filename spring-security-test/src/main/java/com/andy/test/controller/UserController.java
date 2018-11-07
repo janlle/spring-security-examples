@@ -4,16 +4,18 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 /**
  * @author Leone
- * @cerateBy: 2018-07-27
- **/
+ * @since 2017-11-05
+ */
 @Slf4j
 @RestController
-public class TestController {
+public class UserController {
 
     @GetMapping("/user")
     public String getUser() {
-        return "success";
+        return "user";
     }
+
 }

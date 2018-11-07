@@ -1,9 +1,11 @@
-#spring:
-#  security:
-#    user:
-#      name: user
-#      password: user
-module:
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: secret
+      registered-redirect-uri: http://baidu.com
+spring:
   security:
-    browser:
-      loginType: REDIRECT
+    user:
+      name: user
+      password: admin
