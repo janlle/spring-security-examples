@@ -49,6 +49,6 @@ public class UserDetailsServiceImpl implements UserDetailsService, SocialUserDet
         String password = passwordEncoder.encode("admin");
         log.info("数据库的密码是:{}", password);
         return new SocialUser(userId, password, true, true, true, true,
-                AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
+                AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_ADMIN"));
     }
 }

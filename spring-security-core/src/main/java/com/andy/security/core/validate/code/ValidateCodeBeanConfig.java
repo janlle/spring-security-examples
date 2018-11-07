@@ -17,7 +17,7 @@ import javax.annotation.Resource;
 @Configuration
 public class ValidateCodeBeanConfig {
 
-    @Resource
+    @Autowired
     private SecurityProperties securityProperties;
 
     @Bean

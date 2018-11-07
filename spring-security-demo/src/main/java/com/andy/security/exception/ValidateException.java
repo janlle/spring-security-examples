@@ -1,6 +1,6 @@
 package com.andy.security.exception;
 
-import com.andy.security.common.MessageEnum;
+import com.andy.security.core.common.MessageEnum;
 
 /**
  * @author Leone

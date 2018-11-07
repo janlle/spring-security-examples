@@ -1,6 +1,6 @@
 package com.andy.security.browser.authentication;
 
-import com.andy.security.browser.support.SimpleResponse;
+import com.andy.security.core.common.Response;
 import com.andy.security.core.property.LoginType;
 import com.andy.security.core.property.SecurityProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -18,7 +18,7 @@ import java.io.IOException;
 
 /**
  * @author Leone
- * @since 2017-11-19 3:12:07
+ * @since 2017-11-19
  **/
 @Slf4j
 @Component("authFailureHandler")
@@ -37,7 +37,7 @@ public class AuthFailureHandler extends SimpleUrlAuthenticationFailureHandler {
         if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
             response.setContentType("application/json;charset=utf-8");
             response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
-            response.getWriter().write(objectMapper.writeValueAsString(new SimpleResponse(exception.getMessage())));
+            response.getWriter().write(objectMapper.writeValueAsString(Response.build(40001, exception.getMessage())));
         } else {
             super.onAuthenticationFailure(request, response, exception);
         }

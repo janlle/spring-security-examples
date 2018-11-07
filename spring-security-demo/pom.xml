@@ -41,11 +41,11 @@
             <version>1.5.7.RELEASE</version>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>com.andy.security</groupId>-->
-            <!--<artifactId>spring-security-browser</artifactId>-->
-            <!--<version>${module.security.version}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.andy.security</groupId>
+            <artifactId>spring-security-browser</artifactId>
+            <version>1.1.0.RELEASE</version>
+        </dependency>
 
         <dependency>
             <groupId>com.andy.security</groupId>
@@ -93,7 +93,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.0.3.RELEASE</version>
                 <configuration>
-                    <!--<mainClass>${start-class}</mainClass>-->
+                    <mainClass>com.andy.security.DemoApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>

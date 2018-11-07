@@ -1,4 +1,4 @@
-package com.andy.security.common;
+package com.andy.security.core.common;
 
 
 import java.io.Serializable;
