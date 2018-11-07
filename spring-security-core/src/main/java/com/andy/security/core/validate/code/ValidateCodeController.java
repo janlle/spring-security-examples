@@ -22,6 +22,10 @@ import java.io.IOException;
 @RestController
 public class ValidateCodeController {
 
+    public static final String SESSION_KEY = "SESSION_KEY_IMAGE_CODE";
+
+    private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
+
     @Autowired
     @Qualifier(value = "imageCodeGenerator")
     private ValidateCodeGenerator imageCodeGenerator;
@@ -32,10 +36,6 @@ public class ValidateCodeController {
 
     @Autowired
     private SmsCodeSender smsCodeSender;
-
-    private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
-
-    public static final String SESSION_KEY = "SESSION_KEY_IMAGE_CODE";
 
 
     @GetMapping("/code/image")

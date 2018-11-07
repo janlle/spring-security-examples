@@ -10,12 +10,14 @@ import java.time.LocalDateTime;
  * @author Leone
  * @since 2018-04-7
  **/
-@Data
 public class ValidateCode {
 
     private String code;
 
     private LocalDateTime expiredTime;
+
+    public ValidateCode() {
+    }
 
     public boolean isExpiredTime() {
         return LocalDateTime.now().isAfter(expiredTime);
@@ -31,8 +33,11 @@ public class ValidateCode {
         this.expiredTime = expiredTime;
     }
 
-    public ValidateCode() {
+    public String getCode() {
+        return code;
     }
 
-
+    public LocalDateTime getExpiredTime() {
+        return expiredTime;
+    }
 }

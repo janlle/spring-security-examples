@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.annotation.Resource;
+
 /**
  * @author Leone
  * @since 2018-04-07
@@ -15,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ValidateCodeBeanConfig {
 
-    @Autowired
+    @Resource
     private SecurityProperties securityProperties;
 
     @Bean

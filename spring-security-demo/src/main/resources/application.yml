@@ -18,10 +18,11 @@ module:
     browser:
       loginType: REDIRECT
       loginPage: /andy-login.html
+      rememberMeSeconds: 3600
     social:
       qq:
-        app-id:
-        app-secret:
+        app-id: xxx
+        app-secret: xxx
         providerId: callback.do
       wx:
         app-id: wx056d93262f42bd10

@@ -13,5 +13,4 @@ import com.andy.security.core.property.SecurityProperties;
 @EnableConfigurationProperties(SecurityProperties.class)
 public class SecurityCoreConfig {
 
-
 }
