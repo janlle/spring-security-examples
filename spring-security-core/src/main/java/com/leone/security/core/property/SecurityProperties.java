@@ -1,0 +1,20 @@
+package com.leone.security.core.property;
+
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+/**
+ * @author Leone
+ * @since 2017-11-19
+ */
+@Data
+@ConfigurationProperties(prefix = "module.security")
+public class SecurityProperties {
+
+    private BrowserProperties browser = new BrowserProperties();
+
+    private ValidateCodeProperties code = new ValidateCodeProperties();
+
+    private SocialProperties social = new SocialProperties();
+
+}
