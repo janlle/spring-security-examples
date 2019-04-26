@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @Slf4j
 @RestController
-public class UserController {
+public class TestController {
 
-    @GetMapping("/user")
-    public String getUser() {
-        return "user";
+    @GetMapping("/test")
+    public String test() {
+        return "test";
     }
 
 }
