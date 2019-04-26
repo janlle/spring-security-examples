@@ -1,12 +1,5 @@
-security:
-  oauth2:
-    client:
-      client-id: client
-      client-secret: secret
-      registered-redirect-uri: http://baidu.com
 spring:
   security:
     user:
       name: user
-      password: user
-
+      password: 123456
