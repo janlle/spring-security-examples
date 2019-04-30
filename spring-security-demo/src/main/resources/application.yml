@@ -6,6 +6,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   session:
     store-type: none
+
 module:
   security:
     code:

@@ -30,7 +30,7 @@ public class TestSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/test-login.html", "/authentication/form", "/4xx.html")
+                .antMatchers("/test-login.html", "/authentication/form", "/error/4xx.html")
                 .permitAll()
                 .anyRequest()
                 .authenticated()
@@ -39,7 +39,7 @@ public class TestSecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginPage("/test-login.html")
                 .loginProcessingUrl("/authentication/form")
                 .successForwardUrl("/index")
-                .failureUrl("/4xx.html")
+                .failureUrl("/error/4xx.html")
                 .and()
                 .logout()
                 .logoutUrl("/logout")

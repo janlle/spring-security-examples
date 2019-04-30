@@ -18,6 +18,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -43,9 +44,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
     public void afterPropertiesSet() throws ServletException {
         super.afterPropertiesSet();
         String[] strUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(properties.getCode().getImage().getUrl(), ",");
-        for (String url : strUrls) {
-            urls.add(url);
-        }
+        urls.addAll(Arrays.asList(strUrls));
         urls.add("/authentication/form");
     }
 
@@ -78,10 +77,6 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
 
         if (StringUtils.isBlank(codeInRequest)) {
             throw new ValidateCodeException("验证码的值不能为空！");
-        }
-
-        if (codeInRequest == null) {
-            throw new ValidateCodeException("验证码不存在");
         }
 
         if (codeInSession.isExpiredTime()) {
