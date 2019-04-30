@@ -13,33 +13,38 @@ import org.springframework.security.crypto.factory.PasswordEncoderFactories;
  * @since 2019-04-26
  **/
 @Configuration
-public class CustomSecurityConfig extends WebSecurityConfigurerAdapter {
+public class TestSecurityConfig extends WebSecurityConfigurerAdapter {
 
+    /**
+     * 这里配置了用户名和密码配置文件的就会失效
+     *
+     * @param auth
+     * @throws Exception
+     */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication().withUser("admin").password(PasswordEncoderFactories.createDelegatingPasswordEncoder().encode("admin")).roles("admin");
         auth.inMemoryAuthentication().withUser("user").password(PasswordEncoderFactories.createDelegatingPasswordEncoder().encode("user")).roles("user");
-
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/custom-login.html", "/authentication/form", "/custom-failed.html")
+                .antMatchers("/test-login.html", "/authentication/form", "/4xx.html")
                 .permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()
                 .formLogin()
-                .loginPage("/custom-login.html")
+                .loginPage("/test-login.html")
                 .loginProcessingUrl("/authentication/form")
                 .successForwardUrl("/index")
-                .failureUrl("/custom-failed.html")
+                .failureUrl("/4xx.html")
                 .and()
                 .logout()
                 .logoutUrl("/logout")
                 .permitAll()
-                .logoutSuccessUrl("/custom-logout.html")
+                .logoutSuccessUrl("/test-logout.html")
                 .and()
                 .csrf()
                 .disable();
