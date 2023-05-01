@@ -1,2 +1,2 @@
-# Spring Security
+# Spring Security study examples
 
