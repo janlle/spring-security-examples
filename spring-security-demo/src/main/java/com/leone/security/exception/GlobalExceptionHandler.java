@@ -22,21 +22,21 @@ public class GlobalExceptionHandler {
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(ValidateException.class)
-    public Response handleBaseException(ValidateException e) {
+    public Response<Object> handleBaseException(ValidateException e) {
         logger.error("{}", e.getMessage());
         return Response.build(e.getCode(), e.getMessage());
     }
 
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     @ExceptionHandler(AuthenticationException.class)
-    public Response handleAuthenticationException(Throwable e) {
+    public Response<Object> handleAuthenticationException(Throwable e) {
         logger.error("{}", e.getMessage());
         return Response.build(MessageEnum.UNAUTHORIZED);
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(IllegalArgumentException.class)
-    public Response handleBaseException(IllegalArgumentException e) {
+    public Response<Object> handleBaseException(IllegalArgumentException e) {
         logger.error("{}", e.getMessage());
         return Response.build(MessageEnum.BAD_REQUEST);
     }

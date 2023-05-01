@@ -8,12 +8,20 @@
     <artifactId>spring-security-examples</artifactId>
     <version>1.1.1</version>
 
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <modules>
         <module>spring-security-browser</module>
         <module>spring-security-core</module>
         <module>spring-security-demo</module>
         <module>spring-security-test</module>
         <module>spring-security-social</module>
+        <module>spring-security-old</module>
+        <module>spring-security-new</module>
         <module>spring-security-oauth-server</module>
         <module>spring-security-resource-server</module>
     </modules>
